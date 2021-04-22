@@ -1,6 +1,8 @@
 img {
-  width: 150px;
+  width: 125px;
   float: right;
+  margin-top: 5px;
+  margin-right: 7px;
 }
 
 h1 {
@@ -44,4 +46,8 @@ hr {
 body {
   padding-left: 20%;
   padding-right: 20%;
+}
+
+ul {
+  color: gray;
 }
