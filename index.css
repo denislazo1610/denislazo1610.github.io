@@ -1,11 +1,14 @@
 img {
   width: 150px;
   float: right;
+  /* box-shadow: 5px 5px; */
 }
 
 h1 {
-  background-color: antiquewhite;
+  background-color: rgb(78, 59, 33);
   text-align: center;
+  border-radius: 10px;
+  color: white;
 }
 
 h2 {
@@ -13,6 +16,17 @@ h2 {
 }
 
 footer {
-  background-color: antiquewhite;
+  background-color: rgb(78, 59, 33);
   text-align: center;
+}
+
+footer p {
+  border-radius: 10px;
+  color: white;
+}
+
+footer h4 {
+  color: yellow;
+  /* padding-top: -20px; */
+  margin-top: -10px;
 }
