@@ -5,6 +5,7 @@ img {
 
 h1 {
   background-color: antiquewhite;
+  text-align: center;
 }
 
 h2 {
@@ -13,4 +14,5 @@ h2 {
 
 footer {
   background-color: antiquewhite;
+  text-align: center;
 }
