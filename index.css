@@ -1,3 +1,15 @@
 img {
-  width: 30px;
+  width: 200px;
+  float: right;
+}
+
+h2 {
+  background-color: antiquewhite;
+}
+
+h1 {
+  padding-top: 20px;
+}
+footer {
+  background-color: antiquewhite;
 }
