@@ -1,3 +1,3 @@
-let cosa = document.lastModified;
+let lastUpdated = document.lastModified;
 
-console.log(cosa);
+document.querySelector("#lastUpdated").textContent = lastUpdated;
