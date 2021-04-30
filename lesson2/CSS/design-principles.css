@@ -1,0 +1,18 @@
+body {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.superior {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.superior h1 {
+  margin-bottom: -10px;
+}
+
+.superior p {
+  padding-bottom: 10px;
+}
