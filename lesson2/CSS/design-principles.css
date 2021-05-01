@@ -21,10 +21,18 @@ body {
   display: grid;
   grid-column-gap: 50px;
   grid-template-columns: auto auto auto;
+  margin-top: -10px;
 }
 
 .grid-container h2 {
-  background-color: darkblue;
+  background-color: rgb(57, 96, 141);
   color: white;
   text-align: center;
+  margin-top: 0px;
+}
+
+.grid-container div {
+  border: black;
+  border-width: 1px;
+  border-style: solid;
 }
