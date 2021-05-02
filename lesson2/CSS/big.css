@@ -1,5 +1,7 @@
-body {
-  padding-left: 10%;
+@media only screen and (min-width: 32.5cm) {
+
+  body {
+    padding-left: 10%;
   padding-right: 10%;
 }
 
@@ -63,4 +65,5 @@ footer h4 {
 
 footer p a {
   color: black;
+}
 }
