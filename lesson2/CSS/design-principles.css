@@ -35,4 +35,10 @@ body {
   border: black;
   border-width: 1px;
   border-style: solid;
+  background: rgb(231, 231, 231);
+}
+
+.grid-container img {
+  width: 250px;
+  margin-left: 15px;
 }
