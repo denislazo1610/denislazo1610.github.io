@@ -44,3 +44,40 @@
     border-style: solid;
     background: rgb(231, 231, 231);
   }
+
+  .grid-container div {
+    padding-bottom: 5%;
+  }
+
+  .grid-container div p {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 0%;
+  }
+
+  .grid-container div a {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  
+  footer {
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  footer p {
+    border-radius: 10px;
+    color: black;
+    padding-top: 10px;
+  }
+
+  footer h4 {
+    color: black;
+    margin-top: -10px;
+    padding-bottom: 10px;
+  }
+
+  footer p a {
+    color: black;
+  }
