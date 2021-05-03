@@ -59,8 +59,8 @@
 
   .grid-container .Third {
     grid-column: 3/4;
-    width: 55%;
-    margin-left: 23%;
+    width: 100%;
+    margin-left: 0%;
   }
 
   footer {
