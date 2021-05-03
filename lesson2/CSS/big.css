@@ -57,6 +57,12 @@
     margin-left: 20px;
   }
 
+  .grid-container .Third {
+    grid-column: 3/4;
+    width: 55%;
+    margin-left: 23%;
+  }
+
   footer {
     background-color: rgb(231, 231, 231);
     text-align: center;
