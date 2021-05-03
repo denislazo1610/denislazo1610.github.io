@@ -1,69 +1,69 @@
 @media only screen and (min-width: 32.5cm) {
-
   body {
     padding-left: 10%;
-  padding-right: 10%;
-}
+    padding-right: 10%;
+  }
 
-.superior {
-  background-color: black;
-  color: white;
-  text-align: center;
-}
+  .superior {
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
 
-.superior h1 {
-  margin-bottom: -10px;
-}
+  .superior h1 {
+    margin-bottom: -10px;
+  }
 
-.superior p {
-  padding-bottom: 10px;
-}
+  .superior p {
+    padding-bottom: 10px;
+  }
 
-.grid-container {
-  display: grid;
-  grid-column-gap: 50px;
-  grid-template-columns: auto auto auto;
-  margin-top: -10px;
-}
+  .grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: 61% 61% 61%;
+    margin-top: -10px;
+    width: 50%;
+  }
 
-.grid-container h2 {
-  background-color: rgb(57, 96, 141);
-  color: white;
-  text-align: center;
-  margin-top: 0px;
-}
+  .grid-container h2 {
+    background-color: rgb(57, 96, 141);
+    color: white;
+    text-align: center;
+    /* margin-top: 0px; */
+  }
 
-.grid-container div {
-  border: black;
-  border-width: 1px;
-  border-style: solid;
-  background: rgb(231, 231, 231);
-}
+  .grid-container div {
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+    background: rgb(231, 231, 231);
+  }
 
-.grid-container img {
-  width: 250px;
-  margin-left: 15px;
-}
+  .grid-container div img {
+    width: 280px;
+    margin-right: 10px;
+  }
 
-footer {
-  background-color: rgb(231, 231, 231);
-  text-align: center;
-  border-radius: 10px;
-}
+  footer {
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    border-radius: 10px;
+  }
 
-footer p {
-  border-radius: 10px;
-  color: black;
-  padding-top: 10px;
-}
+  footer p {
+    border-radius: 10px;
+    color: black;
+    padding-top: 10px;
+  }
 
-footer h4 {
-  color: black;
-  margin-top: -10px;
-  padding-bottom: 10px;
-}
+  footer h4 {
+    color: black;
+    margin-top: -10px;
+    padding-bottom: 10px;
+  }
 
-footer p a {
-  color: black;
-}
+  footer p a {
+    color: black;
+  }
 }
