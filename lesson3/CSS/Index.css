@@ -1,6 +1,12 @@
-body {
-  /* margin-left: 2%;
-  margin-right: 3%; */
+.title {
+  text-align: center;
+  background-color: white;
+  margin-left: 3%;
+}
+
+h1 {
+  text-align: center;
+  
 }
 
 .flex-container {
@@ -15,21 +21,15 @@ body {
   padding: 15px 10px;
   text-align: center;
   white-space: wrap;
-  border-style: solid;
+  /* border-style: solid; */
   list-style-type: none;
 }
 
 .flex-container li:hover {
   background-color: rgb(7, 125, 172);
-  color: black;
 }
 
 .flex-container li a {
   color: white;
 }
 
-.title {
-  text-align: center;
-  background-color: white;
-  margin-left: 3%;
-}
