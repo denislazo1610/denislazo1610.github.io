@@ -6,7 +6,7 @@
 
 h1 {
   text-align: center;
-  
+
 }
 
 .flex-container {
@@ -21,7 +21,7 @@ h1 {
   padding: 15px 10px;
   text-align: center;
   white-space: wrap;
-  /* border-style: solid; */
+  
   list-style-type: none;
 }
 
@@ -33,3 +33,18 @@ h1 {
   color: white;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  padding-left: 3%;
+}
+
+.subTitle {
+  grid-column: 1/2;
+  background-color: yellow;
+}
+
+p {
+  grid-column: 2/3;
+  background-color: blue;
+}
