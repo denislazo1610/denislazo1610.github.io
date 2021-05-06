@@ -1,7 +1,11 @@
 .title {
-  text-align: center;
-  background-color: white;
+  text-align: left;
+  background-color: #0b78c0;
   margin-left: 3%;
+  font-size: 46px;
+  margin-bottom: 0%;
+  color: white;
+  padding-left: 4%;
 }
 
 h1 {
@@ -34,9 +38,10 @@ h1 {
 }
 
 .grid-container {
+  border: solid;
   display: grid;
   grid-template-columns: 45% 55%;
-  padding-left: 3%;
+  margin-left: 3%;
 }
 
 .subTitle {
