@@ -6,23 +6,30 @@ body {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  /* width: 100%; */
   align-items: center;
-  /* background-color: gray; */
 }
 
 .flex-container li{
-  background-color: #dfa5a5;
+  background-color: #005c99;
   flex: 23%;
   padding: 15px 10px;
   text-align: center;
   white-space: wrap;
   border-style: solid;
-  /* list-style-type: none; */
+  list-style-type: none;
+}
+
+.flex-container li:hover {
+  background-color: rgb(7, 125, 172);
+  color: black;
+}
+
+.flex-container li a {
+  color: white;
 }
 
 .title {
   text-align: center;
-  background-color: blue;
+  background-color: white;
   margin-left: 3%;
 }
