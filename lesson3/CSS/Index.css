@@ -48,3 +48,22 @@ p {
   grid-column: 2/3;
   background-color: blue;
 }
+
+footer {
+  background-color: #005c99;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 3%;
+}
+
+footer p {
+  border-radius: 10px;
+  color: white;
+  padding-top: 10px;
+}
+
+footer h3 {
+  color: white;
+  margin-top: -10px;
+  padding-bottom: 10px;
+}
