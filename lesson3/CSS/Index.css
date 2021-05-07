@@ -45,12 +45,13 @@ h1 {
 
 .subTitle {
   grid-column: 1/2;
-  background-color: yellow;
+  margin-bottom: -1%;
+  padding-left: 5%;
 }
 
 p {
   grid-column: 1/2;
-  background-color: blue;
+  padding-left: 5%;
 }
 
 footer {
