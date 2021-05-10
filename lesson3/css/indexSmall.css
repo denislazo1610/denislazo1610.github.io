@@ -112,6 +112,10 @@
     padding-top: 10px;
   }
 
+  footer p a {
+    color:white;
+  }
+  
   footer h3 {
     color: white;
     margin-top: -10px;
