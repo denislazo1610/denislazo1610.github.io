@@ -229,6 +229,7 @@ footer {
   grid-row: 3/4;
   font-size: 30px;
   text-align: center;
+  border: solid;
 }
 
 .right2-typography {
@@ -237,6 +238,7 @@ footer {
   font-size: 30px;
   font-family: "IBM Plex Serif", serif;
   text-align: center;
+  border: solid;
 }
 
 .left3-typography {
@@ -244,6 +246,7 @@ footer {
   grid-row: 4/5;
   font-size: 30px;
   text-align: center;
+  border: solid;
 }
 
 .right3-typography {
@@ -252,6 +255,7 @@ footer {
   font-size: 30px;
   font-family: "Source Serif Pro", serif;
   text-align: center;
+  border: solid;
 }
 
 .grid-container-target {
