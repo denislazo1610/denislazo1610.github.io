@@ -25,7 +25,7 @@ h1 {
   flex: 23.5%;
   padding: 15px 10px;
   text-align: center;
-  white-space: wrap;
+  /* white-space: wrap; */
 
   list-style-type: none;
 }
