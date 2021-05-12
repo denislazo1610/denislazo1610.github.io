@@ -210,16 +210,18 @@ footer {
 .left-typography {
   grid-column: 1/2;
   grid-row: 2/3;
-  font-size: 30px;
+  /* font-size: 30px; */
   text-align: center;
+  border: solid;
 }
 
 .right-typography {
   grid-column: 2/3;
   grid-row: 2/3;
-  font-size: 30px;
+  /* font-size: 30px; */
   font-family: "PT Serif", serif;
   text-align: center;
+  border: solid;
 }
 
 .left2-typography {
