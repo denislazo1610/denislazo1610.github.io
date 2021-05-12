@@ -1,7 +1,64 @@
+nav {
+  background-color: #005c99;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
 .navigation {
-  display: flex;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+/* NECESITO AYUDAAAAA */
+.navigation a:hover {
+  /* background-color: white; */
+  color: black;
+}
+
+.navigation li:hover {
+  background-color: white;
+}
+
+/* HASTA AQUI */
+
+.title {
+  text-align: center;
+}
+
+.navigation li {
+  display: none;
 }
 
 .navigation li:first-child {
-  display: none;
+  display: block;
+  border: solid;
+}
+.navigation a {
+  color: white;
+}
+
+@media only screen and (min-width: 32.5em) {
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+    border: solid;
+  }
+
+  .navigation a {
+    text-align: center;
+    color: white;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .title {
+    text-align: center;
+  }
 }
