@@ -253,3 +253,32 @@ footer {
   font-family: "Source Serif Pro", serif;
   text-align: center;
 }
+
+.grid-container-target {
+  border: solid;
+  margin-left: 2.5%;
+  padding-left: 2%;
+}
+
+.description {
+  /* border: solid;s */
+  padding-left: 0%;
+}
+
+.digital_nomad {
+  width: 20%;
+  padding-bottom: 1%;
+}
+
+.first-persona {
+  padding-bottom: 2%;
+}
+
+.second-persona {
+  padding-bottom: 2%;
+}
+
+.digital_nomad_woman {
+  width: 20%;
+  padding-bottom: 1%;
+}
