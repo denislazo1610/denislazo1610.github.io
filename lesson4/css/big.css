@@ -52,11 +52,13 @@
   .grid-container {
     margin: 0 auto;
     display: grid;
+    row-gap: 0px;
     max-width: 67%;
   }
 
   .grid-container p {
     border: solid;
+    padding-left: 2%;
   }
 
   footer {
