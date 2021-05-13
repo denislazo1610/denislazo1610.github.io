@@ -43,6 +43,22 @@
     text-align: center;
   }
 
+  .subTitle {
+    margin: 0 auto;
+    max-width: 70%;
+    text-align: center;
+  }
+
+  .grid-container {
+    margin: 0 auto;
+    display: grid;
+    max-width: 67%;
+  }
+
+  .grid-container p {
+    border: solid;
+  }
+
   footer {
     background-color: rgb(231, 231, 231);
     text-align: center;
