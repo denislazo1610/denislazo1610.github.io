@@ -1,8 +1,14 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (max-width: 32.5em) {
   nav {
     background-color: #005c99;
     margin: 0 auto;
     max-width: 70%;
+  }
+
+  .navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
   }
 
   /* NECESITO AYUDAAAAA */
@@ -17,30 +23,31 @@
 
   /* HASTA AQUI */
 
-  .navigation {
-    display: flex;
-    list-style: none;
+  .title {
     text-align: center;
-    padding: 0;
   }
 
   .navigation li {
-    display: block;
-    flex: 1 1 auto;
-    border: solid;
-  }
-
-  .navigation a {
-    text-align: center;
-    color: white;
-  }
-
-  .navigation li:first-child {
     display: none;
   }
 
-  .title {
-    text-align: center;
+  .navigation li:first-child {
+    display: block;
+    border: solid;
+  }
+  .navigation a {
+    color: white;
+  }
+
+  .responsive {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .responsive li {
+    display: block;
+    flex: 100%;
+    /* border: solid; */
   }
 
   footer {
