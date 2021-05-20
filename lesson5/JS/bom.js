@@ -12,4 +12,5 @@ agregar.addEventListener("click", () => {
 
 borrar.addEventListener("click", () => {
   let li = document.createElement("li");
+  const deletebutton = document.createElement("Delete");
 });
