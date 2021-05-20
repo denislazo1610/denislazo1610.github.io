@@ -6,11 +6,6 @@ const lista = document.querySelector(".listcontainer"); // lista
 
 // const button = document.querySelector("");
 
-agregar.addEventListener("click", () => {
+button.addEventListener("click", () => {
   let li = document.createElement("li");
-});
-
-borrar.addEventListener("click", () => {
-  let li = document.createElement("li");
-  const deletebutton = document.createElement("Delete");
 });
