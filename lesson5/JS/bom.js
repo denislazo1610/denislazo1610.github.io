@@ -4,8 +4,17 @@ const button = document.querySelector("button"); // boton
 
 const lista = document.querySelector(".listcontainer"); // lista
 
-// const button = document.querySelector("");
-
 button.addEventListener("click", () => {
   let li = document.createElement("li");
+
+  document.querySelector(".list").append("cosa");
+
+  //   console.log(document.querySelector("#favchap").value());
+
+  li.textContent("#favchap");
+
+  const deletebutton = document.createElement("button");
 });
+
+// document.querySelector("#favchap").value = "nooo";
+// console.log(document.querySelector("#favchap").value);
