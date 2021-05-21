@@ -1,0 +1,98 @@
+@media only screen and (max-width: 32.5em) {
+  nav {
+    background-color: #005c99;
+    margin: 0 auto;
+    max-width: 70%;
+  }
+
+  .navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+  }
+
+  /* NECESITO AYUDAAAAA */
+  .navigation a:hover {
+    /* background-color: white; */
+    color: black;
+  }
+
+  .navigation li:hover {
+    background-color: white;
+  }
+
+  /* HASTA AQUI */
+
+  .title {
+    text-align: center;
+  }
+
+  .navigation li {
+    display: none;
+  }
+
+  .navigation li:first-child {
+    display: block;
+    border: solid;
+  }
+  .navigation a {
+    color: white;
+  }
+
+  .responsive {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .responsive li {
+    display: block;
+    flex: 100%;
+    /* border: solid; */
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .subTitle {
+    margin: 0 auto;
+    max-width: 70%;
+    text-align: center;
+  }
+
+  .grid-container {
+    margin: 0 auto;
+    display: grid;
+    row-gap: 0px;
+    max-width: 67%;
+  }
+
+  .grid-container p {
+    border: solid;
+    padding-left: 2%;
+  }
+
+  footer {
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    border-radius: 10px;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+  footer p {
+    border-radius: 10px;
+    color: black;
+    padding-top: 10px;
+  }
+
+  footer h4 {
+    color: black;
+    margin-top: -10px;
+    padding-bottom: 10px;
+  }
+
+  footer p a {
+    color: black;
+  }
+}
