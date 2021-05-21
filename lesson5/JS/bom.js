@@ -19,6 +19,3 @@ button.addEventListener("click", () => {
     lista.removeChild(li);
   });
 });
-
-// document.querySelector("#favchap").value = "nooo";
-// console.log(document.querySelector("#favchap").value);
