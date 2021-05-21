@@ -10,21 +10,18 @@
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    border: solid;
-    margin-left: 20%;
-    margin-right: 60%;
+    max-width: 70%;
+    margin: 0 auto;
   }
 
   .imagen {
     width: 120px;
-    border: solid;
     grid-area: 1 / 1 / 2 / 2;
   }
 
   .title {
     text-align: center;
-    border: solid;
-    padding-top: 30px;
+    padding-top: 23px;
     grid-area: 1 / 2 / 2 / 3;
   }
 
