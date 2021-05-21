@@ -2,7 +2,7 @@
 const input = document.querySelector("#favchap"); // Informacion del input
 const button = document.querySelector("button"); // boton
 
-const lista = document.querySelector(".listcontainer"); // lista
+const lista = document.querySelector(".list"); // lista
 
 button.addEventListener("click", () => {
   let li = document.createElement("li");
@@ -14,13 +14,10 @@ button.addEventListener("click", () => {
   li.append(deletebutton);
 
   document.querySelector(".list").append(li);
-});
 
-deleteButton.addEventListener("click", function () {
-  let node = document.querySelector(li);
-  if (node.parentNode) {
-    node.parentNode.removeChild(node);
-  }
+  deletebutton.addEventListener("click", () => {
+    lista.removeChild(li);
+  });
 });
 
 // document.querySelector("#favchap").value = "nooo";
