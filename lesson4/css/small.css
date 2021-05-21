@@ -34,7 +34,7 @@
   .navigation a:hover {
     background-color: white;
     color: black;
-    display: block;
+    /* display: block; */
   }
 
   .title {
@@ -51,6 +51,7 @@
   }
   .navigation a {
     color: white;
+    display: block;
   }
 
   .responsive {

@@ -29,7 +29,6 @@
   .navigation a:hover {
     background-color: white;
     color: black;
-    display: block;
   }
 
   .navigation {
@@ -49,6 +48,7 @@
     text-align: center;
     color: white;
     padding: 0.5rem;
+    display: block;
   }
 
   .navigation li:first-child {
