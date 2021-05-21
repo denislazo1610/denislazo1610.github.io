@@ -11,17 +11,11 @@
     padding: 0;
   }
 
-  /* NECESITO AYUDAAAAA */
   .navigation a:hover {
-    /* background-color: white; */
-    color: black;
-  }
-
-  .navigation li:hover {
     background-color: white;
+    color: black;
+    display: block;
   }
-
-  /* HASTA AQUI */
 
   .title {
     text-align: center;
