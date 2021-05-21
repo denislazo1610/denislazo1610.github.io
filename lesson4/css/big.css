@@ -2,7 +2,29 @@
   nav {
     background-color: #005c99;
     margin: 0 auto;
-    max-width: 70%;
+  }
+  header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: solid;
+    padding-left: 30%;
+    padding-right: 70%;
+  }
+
+  .imagen {
+    width: 120px;
+    border: solid;
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .title {
+    text-align: center;
+    border: solid;
+    padding-top: 30px;
+    grid-area: 1 / 2 / 2 / 3;
   }
 
   .navigation a:hover {
@@ -27,14 +49,11 @@
   .navigation a {
     text-align: center;
     color: white;
+    padding: 0.5rem;
   }
 
   .navigation li:first-child {
     display: none;
-  }
-
-  .title {
-    text-align: center;
   }
 
   .subTitle {
@@ -59,8 +78,8 @@
     background-color: rgb(231, 231, 231);
     text-align: center;
     border-radius: 10px;
-    max-width: 70%;
     margin: 0 auto;
+    padding-bottom: 5px;
   }
 
   footer p {
