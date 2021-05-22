@@ -90,7 +90,23 @@
     max-width: 67%;
   }
 
-  .grid-container p {
+  .contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
+  .contact p {
+    grid-column: 2/3;
+  }
+
+  .contact h3 {
+    grid-column: 2/3;
+  }
+
+  .grid-container h3 {
     border: solid;
     padding-left: 2%;
   }
