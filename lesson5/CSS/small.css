@@ -2,7 +2,27 @@
   nav {
     background-color: #005c99;
     margin: 0 auto;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     max-width: 70%;
+    margin: 0 auto;
+  }
+
+  .imagen {
+    width: 120px;
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .title {
+    text-align: center;
+    padding-top: 23px;
+    grid-area: 1 / 2 / 2 / 3;
   }
 
   .navigation {
@@ -11,17 +31,11 @@
     padding: 0;
   }
 
-  /* NECESITO AYUDAAAAA */
   .navigation a:hover {
-    /* background-color: white; */
-    color: black;
-  }
-
-  .navigation li:hover {
     background-color: white;
+    color: black;
+    /* display: block; */
   }
-
-  /* HASTA AQUI */
 
   .title {
     text-align: center;
@@ -37,6 +51,7 @@
   }
   .navigation a {
     color: white;
+    display: block;
   }
 
   .responsive {
@@ -47,11 +62,7 @@
   .responsive li {
     display: block;
     flex: 100%;
-    /* border: solid; */
-  }
-
-  .title {
-    text-align: center;
+    border: solid;
   }
 
   .subTitle {
@@ -76,8 +87,8 @@
     background-color: rgb(231, 231, 231);
     text-align: center;
     border-radius: 10px;
-    max-width: 70%;
     margin: 0 auto;
+    padding-bottom: 5px;
   }
 
   footer p {
