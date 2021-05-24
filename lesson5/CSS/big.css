@@ -90,11 +90,10 @@
     max-width: 67%;
   }
 
-  .grid-container .forecast {
+  .forecast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-row-gap: -40px;
   }
 
   .forecast h5 {
@@ -103,11 +102,13 @@
     text-align: center;
     padding-top: 2px;
     border: solid;
+    margin: 0 !important;
   }
   .forecast p {
     grid-row: 2/3;
     text-align: center;
     border: solid;
+    margin: 0 !important;
   }
 
   h3 {
