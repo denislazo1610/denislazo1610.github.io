@@ -96,9 +96,11 @@
     text-align: center;
   }
 
-  .grid-container h3:first-child {
+  .grid-container .days_subtitle {
     display: none;
   }
+
+
 
   .grid-container .forecast {
     display: none;
