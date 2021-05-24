@@ -37,8 +37,8 @@
 
   .stats {
     position: absolute;
-    top: 25px;
-    left: 250px;
+    top: 10px;
+    left: 48px;
     background: radial-gradient(#eee, #4567aa);
     border: 1px solid #000;
     padding: 1.5rem;
