@@ -113,15 +113,21 @@
     max-width: 67%;
   }
 
-  .contact_info {
-    padding-left: 0;
-  }
-
+  
   .grid-container p {
     border: solid;
     padding-left: 2%;
   }
 
+  .contact_info {
+    padding-left: 0;
+  }
+
+  .logos {
+    padding-left: 27%;
+    /* border:solid; */
+  }
+  
   footer {
     background-color: rgb(231, 231, 231);
     text-align: center;
