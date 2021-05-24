@@ -104,6 +104,9 @@
     display: none;
   }
 
+    h3 {
+      text-align: center;
+    }
 
   .grid-container {
     margin: 0 auto;
@@ -117,6 +120,10 @@
   .grid-container p {
     border: solid;
     padding-left: 2%;
+  }
+
+  .article h2 {
+    margin-bottom: 7px;
   }
 
   .article h4 {
@@ -133,7 +140,10 @@
 
   .logos {
     padding-left: 27%;
-    /* border:solid; */
+  }
+
+  .image_contact {
+    margin-left: 30px;
   }
   
   footer {
