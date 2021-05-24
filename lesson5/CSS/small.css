@@ -46,6 +46,10 @@
     opacity: 0.9;
   }
 
+  .stats h2 {
+    font-size: 20px;
+  }
+
   .navigation {
     list-style: none;
     text-align: center;

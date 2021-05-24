@@ -39,16 +39,12 @@
   .stats {
     position: absolute;
     top: 25px;
-    left: 10px;
+    left: 250px;
     background: radial-gradient(#eee, #4567aa);
     border: 1px solid #000;
     padding: 1.5rem;
     box-shadow: 0 0 30px #333;
     opacity: 0.9;
-  }
-
-  .stats h2 {
-    font-size: 500px;
   }
 
   .navigation a:hover {
