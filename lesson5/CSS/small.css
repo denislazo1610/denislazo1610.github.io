@@ -111,8 +111,10 @@
     display: grid;
     row-gap: 0px;
     max-width: 67%;
+  }
 
-
+  .contact_info {
+    padding-left: 0;
   }
 
   .grid-container p {
