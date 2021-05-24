@@ -93,21 +93,24 @@
   .contact {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
   }
 
-  .contact p {
+  .contact .contact_info {
     grid-column: 2/3;
-    /* grid-row: 2/3; */
-    border: solid;
+  }
+
+  .logo {
+    width: 55px;
   }
 
   .image_contact {
     grid-column: 1/2;
-    grid-row: 2/3;
+    grid-row: 1/2;
     border: solid;
+    margin-left: 20%;
   }
 
   .contact h3 {
