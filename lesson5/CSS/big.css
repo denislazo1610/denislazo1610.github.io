@@ -90,6 +90,21 @@
     max-width: 67%;
   }
 
+  .grid-container .forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .forecast p {
+    grid-row: 2/3;
+  }
+
+  .forecast h3 {
+    text-align: center;
+    grid-column: 1/6;
+  }
+
   .contact {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -102,8 +117,8 @@
     grid-column: 2/3;
   }
 
-  .logo {
-    width: 55px;
+  .logos {
+    margin-left: -7%;
   }
 
   .image_contact {
