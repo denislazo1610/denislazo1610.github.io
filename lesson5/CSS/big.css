@@ -30,7 +30,7 @@
     width: 55%;
     margin-left: 23%;
   }
-  
+
   .herodiv {
     margin: 10px auto;
     position: relative;
@@ -143,9 +143,18 @@
     grid-row: 1/2;
   }
 
-  .grid-container h3 {
+ .grid-container h3 {
     border: solid;
     padding-left: 2%;
+  }
+
+  .article .foto_de_article {
+    /* width: 400px; */
+    float: right;
+  }
+
+  .article p {
+    margin-bottom: 8%;
   }
 
   footer {
