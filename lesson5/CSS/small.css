@@ -100,17 +100,20 @@
     display: none;
   }
 
-
-
   .grid-container .forecast {
     display: none;
   }
+
+    h3 {
+      text-align: center;
+    }
 
   .grid-container {
     margin: 0 auto;
     display: grid;
     row-gap: 0px;
     max-width: 67%;
+    margin-top: 50px;
   }
 
   
@@ -119,13 +122,28 @@
     padding-left: 2%;
   }
 
+  .article h2 {
+    margin-bottom: 7px;
+  }
+
+  .article h4 {
+    margin: 0;
+  }
+
+  .article p {
+    margin: 0;
+  }
+
   .contact_info {
     padding-left: 0;
   }
 
   .logos {
     padding-left: 27%;
-    /* border:solid; */
+  }
+
+  .image_contact {
+    margin-left: 30px;
   }
   
   footer {
