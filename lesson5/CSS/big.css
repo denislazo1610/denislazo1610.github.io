@@ -160,6 +160,11 @@
     margin-bottom: 8%;
   }
 
+  .article h3 {
+    text-align: left;
+    border: none;
+  }
+
   footer {
     background-color: rgb(231, 231, 231);
     text-align: center;

@@ -115,6 +115,7 @@
     row-gap: 0px;
     max-width: 67%;
     margin-top: 50px;
+    margin-right: 25%;
   }
 
   
@@ -129,6 +130,11 @@
 
   .article h4 {
     margin: 0;
+  }
+
+  .article h3 {
+    text-align: left;
+    border: none;
   }
 
   .article p {
