@@ -48,5 +48,4 @@ document.querySelector(".grid-container .forecast .fifth_day").textContent =
     document.querySelector(".advertencia").textContent = oracion;
     document.querySelector(".advertencia").style.textAlign = "center";
     document.querySelector(".advertencia").style.backgroundColor = "Yellow";
-    
   }
