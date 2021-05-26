@@ -106,6 +106,7 @@
     border: solid;
     margin: 0 !important;
   }
+  
   .forecast p {
     grid-row: 2/3;
     text-align: center;
