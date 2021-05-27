@@ -1,5 +1,4 @@
 @media only screen and (max-width: 32.5em) {
-
   nav {
     background-color: #005c99;
     margin: 0 auto;
@@ -11,7 +10,7 @@
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    max-width: 70%;
+    max-width: 100%;
     margin: 0 auto;
   }
 
@@ -60,7 +59,6 @@
   .navigation a:hover {
     background-color: white;
     color: black;
-
   }
 
   .title {
@@ -105,9 +103,9 @@
     display: none;
   }
 
-    h3 {
-      text-align: center;
-    }
+  h3 {
+    text-align: center;
+  }
 
   .grid-container {
     margin: 0 auto;
@@ -115,13 +113,16 @@
     row-gap: 0px;
     max-width: 67%;
     margin-top: 50px;
-    margin-right: 25%;
+    margin-left: 15%;
   }
 
-  
   .grid-container p {
     border: solid;
     padding-left: 2%;
+  }
+
+  .foto_de_article {
+    width: 100%;
   }
 
   .article h2 {
@@ -145,21 +146,22 @@
     padding-left: 0;
   }
 
-
   .logos {
     padding-left: 27%;
   }
 
   .image_contact {
-    margin-left: 30px;
+    width: 100%;
+    /* margin-left: 25%; */
   }
-  
+
   footer {
     background-color: rgb(231, 231, 231);
     text-align: center;
     border-radius: 10px;
     margin: 0 auto;
     padding-bottom: 5px;
+    width: 100%;
   }
 
   footer p {
