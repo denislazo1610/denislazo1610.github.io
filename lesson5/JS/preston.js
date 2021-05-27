@@ -42,10 +42,10 @@ let fifth_day = date.toLocaleString("en-us", { weekday: "long" });
 document.querySelector(".grid-container .forecast .fifth_day").textContent =
   fifth_day;
 
-
-  if(first_day == "Saturday"){
-    var oracion = "Saturday = Preston Pancakes in the Park! 9:00 a.m. Friday at the city park."
-    document.querySelector(".advertencia").textContent = oracion;
-    document.querySelector(".advertencia").style.textAlign = "center";
-    document.querySelector(".advertencia").style.backgroundColor = "Yellow";
-  }
+if (first_day == "Friday") {
+  var oracion =
+    "Saturday = Preston Pancakes in the Park! 9:00 a.m. Friday at the city park.";
+  document.querySelector(".advertencia").textContent = oracion;
+  document.querySelector(".advertencia").style.textAlign = "center";
+  document.querySelector(".advertencia").style.backgroundColor = "Yellow";
+}
