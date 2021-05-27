@@ -8,9 +8,6 @@ function toggleMenu() {
     .classList.toggle("responsive");
 }
 
-let lastUpdated = document.lastModified;
-
-document.querySelector("#lastUpdated").textContent = lastUpdated;
 
 let year = new Date().getFullYear();
 
@@ -49,3 +46,7 @@ if (first_day == "Friday") {
   document.querySelector(".advertencia").style.textAlign = "center";
   document.querySelector(".advertencia").style.backgroundColor = "Yellow";
 }
+
+let fecha = new Date().toLocaleString("en-us", { weekday: "long", month: "long", year: "numeric", day:"numeric" });
+
+document.querySelector("#fecha").textContent = fecha;
