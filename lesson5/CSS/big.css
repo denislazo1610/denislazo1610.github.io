@@ -26,6 +26,12 @@
     grid-area: 1 / 2 / 2 / 3;
   }
 
+  .navigation li .active {
+    display: block;
+    background:white;
+    color: black;
+  }
+
   .portada {
     width: 55%;
     margin-left: 23%;
