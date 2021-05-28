@@ -54,6 +54,10 @@ header {
 }
 
 .stats h2 {
+  border: none;
+}
+
+.stats h2 {
   font-size: 20px;
 }
 
