@@ -106,19 +106,16 @@
     padding-left: 2%;
   }
 
-  .article .foto_de_article {
-    /* width: 400px; */
+  .foto_de_article {
+    width: 400px;
     float: right;
+
   }
 
   .article p {
     margin-bottom: 8%;
   }
 
-  .article h3 {
-    text-align: left;
-    border: none;
-  }
 
   footer {
     background-color: rgb(231, 231, 231);

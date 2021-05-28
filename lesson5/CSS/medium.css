@@ -23,38 +23,7 @@
       padding: 0.1rem;
       box-shadow: 0 0 30px #333;
       opacity: 0.9;
-    }
-
-  
-  
-  
-  
-  
-    .grid-container p {
-      border: solid;
-      padding-left: 2%;
-    }
-  
-    .foto_de_article {
-      width: 100%;
-    }
-  
-    .article h2 {
-      margin-bottom: 7px;
-    }
-  
-    .article h4 {
-      margin: 0;
-    }
-  
-    .article h3 {
-      text-align: left;
-      border: none;
-    }
-  
-    .article p {
-      margin: 0;
-    }
+    }  
   
     .contact_info {
       padding-left: 0;
