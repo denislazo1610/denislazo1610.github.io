@@ -47,12 +47,7 @@
     display: none;
   }
 
-  .grid-container {
-    margin: 0 auto;
-    display: grid;
-    row-gap: 0px;
-    max-width: 67%;
-  }
+
 
   .forecast {
     display: grid;
