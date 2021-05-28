@@ -30,6 +30,7 @@ header {
   display: block;
   background: white;
   color: black;
+  text-decoration: underline;
 }
 
 .portada {
@@ -104,11 +105,11 @@ header {
   text-align: center;
 }
 
-.grid-container .days_subtitle {
+.days_subtitle {
   display: none;
 }
 
-.grid-container .forecast {
+.forecast {
   display: none;
 }
 
@@ -136,6 +137,7 @@ h3 {
 
 .article h2 {
   margin-bottom: 7px;
+  text-align: center;
 }
 
 .article h4 {
@@ -161,6 +163,10 @@ h3 {
 
 .image_contact {
   width: 100%;
+}
+
+h2 {
+  border: solid;
 }
 
 footer {

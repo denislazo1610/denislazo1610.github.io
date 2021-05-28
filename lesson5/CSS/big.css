@@ -44,6 +44,11 @@
     display: none;
   }
 
+  .days_subtitle {
+    text-align: center;
+    display: block;
+  }
+
   .forecast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
