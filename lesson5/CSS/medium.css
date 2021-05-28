@@ -1,4 +1,4 @@
-@media only screen and (max-width: 32.5em) {
+@media only screen and (min-width: 32.5em) {
     nav {
       background-color: #005c99;
       margin: 0 auto;
@@ -180,4 +180,3 @@
       color: black;
     }
   }
-  
