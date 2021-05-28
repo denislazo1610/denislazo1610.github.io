@@ -1,4 +1,4 @@
-@media only screen and (max-width: 32.5em) {
+/* @media only screen and (max-width: 32.5em) { */
   
   nav {
     background-color: #005c99;
@@ -24,6 +24,12 @@
     text-align: center;
     padding-top: 23px;
     grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .navigation li .active {
+    display: block;
+    background:white;
+    color: black;
   }
   
   .portada {
@@ -75,8 +81,11 @@
     border: solid;
   }
   .navigation a {
+    text-align: center;
     color: white;
+    padding: 0.5rem;
     display: block;
+    text-decoration: none;
   }
   
   .responsive {
@@ -181,4 +190,4 @@
     color: black;
   }
   
-}
+/* } */

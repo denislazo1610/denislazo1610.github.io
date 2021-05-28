@@ -1,8 +1,5 @@
 @media only screen and (min-width: 32.5em) {
-    nav {
-      background-color: #005c99;
-      margin: 0 auto;
-    }
+ 
   
     header {
       display: grid;
@@ -12,100 +9,25 @@
       grid-row-gap: 0px;
       max-width: 100%;
       margin: 0 auto;
+      padding-left: 25%;
+    padding-right: 75%;
     }
   
-    .imagen {
-      width: 120px;
-      grid-area: 1 / 1 / 2 / 2;
-    }
-  
-    .title {
-      text-align: center;
-      padding-top: 23px;
-      grid-area: 1 / 2 / 2 / 3;
-    }
-  
-    .portada {
-      width: 80%;
-      margin-left: 10%;
-    }
-  
-    .herodiv {
-      margin: 10px auto;
-      position: relative;
-    }
   
     .stats {
       /* position: absolute; */
       top: 10px;
       left: 48px;
-      background: radial-gradient(#eee, #4567aa);
+      background: radial-gradient(rgb(212, 47, 47), #4567aa);
       border: 1px solid #000;
       padding: 0.1rem;
       box-shadow: 0 0 30px #333;
       opacity: 0.9;
     }
+
   
-    .stats h2 {
-      font-size: 20px;
-    }
   
-    .navigation {
-      list-style: none;
-      text-align: center;
-      padding: 0;
-    }
   
-    .navigation a:hover {
-      background-color: white;
-      color: black;
-    }
-  
-    .title {
-      text-align: center;
-    }
-  
-    .navigation li {
-      display: none;
-    }
-  
-    .navigation li:first-child {
-      display: block;
-      border: solid;
-    }
-    .navigation a {
-      color: white;
-      display: block;
-    }
-  
-    .responsive {
-      display: flex;
-      flex-wrap: wrap;
-    }
-  
-    .responsive li {
-      display: block;
-      flex: 100%;
-      border: solid;
-    }
-  
-    .subTitle {
-      margin: 0 auto;
-      max-width: 70%;
-      text-align: center;
-    }
-  
-    .grid-container .days_subtitle {
-      display: none;
-    }
-  
-    .grid-container .forecast {
-      display: none;
-    }
-  
-    h3 {
-      text-align: center;
-    }
   
     .grid-container {
       margin: 0 auto;
