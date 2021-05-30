@@ -31,9 +31,8 @@ header {
   text-decoration: underline;
 }
 
-.portada {
-  width: 80%;
-  margin-left: 10%;
+picture {
+  margin-left: 5%;
 }
 
 .herodiv {

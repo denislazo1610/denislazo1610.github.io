@@ -33,7 +33,12 @@
     </nav>
     <h2 class="subTitle">Preston Idaho</h2>
     <div class="herodiv">
-      <img class="portada" alt="portada" src="images/portada.jpg" />
+      <picture>
+        <source media="(max-width: 520px)" srcset="images/hero_small.jpg" />
+        <source media="(max-width: 960px)" srcset="images/hero_medium.jpg" />
+        <img alt="portada" src="images/hero_large.jpg" />
+        <!-- <img class="portada" alt="portada" src="images/portada.jpg" /> -->
+      </picture>
       <section class="stats">
         <h2>Weather Summary</h2>
         <p>Currently: <span class="currently"> Raining</span></p>
