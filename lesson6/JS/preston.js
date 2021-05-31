@@ -44,5 +44,3 @@ let fecha = new Date().toLocaleString("en-us", {
 });
 
 document.querySelector("#fecha").textContent = fecha;
-
-document.querySelector(".label_for_hero").textContent = "Nooo";
