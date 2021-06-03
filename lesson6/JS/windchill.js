@@ -18,5 +18,3 @@ function windchill(t, s) {
     0.4275 * t * Math.pow(s, 0.16);
   return Math.round(respuesta);
 }
-
-// console.log(windchill(3, 4));
