@@ -11,6 +11,11 @@
     padding-right: 75%;
   }
 
+  .gridFotos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .contact_info {
     padding-left: 0;
   }

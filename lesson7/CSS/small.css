@@ -13,8 +13,41 @@ header {
   margin: 0 auto;
 }
 
+.gridFotos {
+  display: grid;
+}
+
+.fotoContainer {
+  position: relative;
+}
+
+.fotoContainer img:hover {
+  filter: grayscale(100%) blur(3px);
+}
+
 .foto {
   width: 350px;
+  height: 250px;
+}
+
+.overlay {
+  position: absolute;
+  width: 110px;
+  top: 40%;
+  left: 28%;
+  text-align: center;
+  opacity: 1;
+  color: white;
+  border: none;
+}
+
+.overlay h1,
+p {
+  margin: 0;
+}
+
+picture p {
+  text-align: center;
 }
 
 .imagen {

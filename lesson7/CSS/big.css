@@ -15,6 +15,11 @@
     margin-left: 18%;
   }
 
+  .gridFotos {
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 
   .stats {
     position: absolute;
