@@ -35,5 +35,13 @@ function getNumberOfDays(start, end) {
 }
 
 const galleryStorage = window.localStorage;
-let lastVisit = Date.now();
+
+let lastVisit = new Date().toLocaleString("en", {
+  dateStyle: "short",
+});
+
+let days = getNumberOfDays(galleryStorage.getItem("lastVisit"), lastVisit);
+
+document.querySelector("#lastVisit").textContent = days;
+
 galleryStorage.setItem("lastVisit", lastVisit);
