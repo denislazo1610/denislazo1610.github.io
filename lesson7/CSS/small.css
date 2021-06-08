@@ -23,6 +23,7 @@ header {
 
 .fotoContainer img:hover {
   filter: grayscale(100%) blur(3px);
+  box-shadow: 0 0 50px #333;
 }
 
 .foto {
