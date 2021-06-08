@@ -12,7 +12,6 @@ let year = new Date().getFullYear();
 
 document.querySelector("#year").textContent = year;
 
-
 let fecha = new Date().toLocaleString("en-us", {
   weekday: "long",
   month: "long",
@@ -21,3 +20,20 @@ let fecha = new Date().toLocaleString("en-us", {
 });
 
 document.querySelector("#fecha").textContent = fecha;
+
+function getNumberOfDays(start, end) {
+  const date1 = new Date(start);
+  const date2 = new Date(end);
+
+  const oneDay = 1000 * 60 * 60 * 24;
+
+  const diffInTime = date2.getTime() - date1.getTime();
+
+  const diffInDays = Math.round(diffInTime / oneDay);
+
+  return diffInDays;
+}
+
+const galleryStorage = window.localStorage;
+let lastVisit = Date.now();
+galleryStorage.setItem("lastVisit", lastVisit);
