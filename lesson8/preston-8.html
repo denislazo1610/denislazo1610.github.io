@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TuClimaTime</title>
+    <meta
+      name="description"
+      content="This website will tell the weather of a specific city. It will contain information about the wind speed, humidity, etc. This will also show maps in it"
+    />
+    <link rel="stylesheet" href="CSS/small.css" />
+    <link rel="stylesheet" href="CSS/medium.css" />
+    <link rel="stylesheet" href="CSS/big.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <div class="advertencia"></div>
+    <header>
+      <img class="imagen" alt="nube_logo" src="images/logo.png" />
+      <h1 class="title">TuClimateTime</h1>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li onclick="toggleMenu()"><a class="boton">Menu</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a class="active" href="#">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="gallery-7.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <h2 class="subTitle">Preston Idaho</h2>
+    <div class="herodiv">
+      <picture>
+        <source media="(max-width: 520px)" srcset="images/hero_small.jpg" />
+        <source media="(max-width: 960px)" srcset="images/hero_medium.jpg" />
+        <img alt="portada" src="images/hero_large.jpg" />
+        <!-- <img class="portada" alt="portada" src="images/portada.jpg" /> -->
+      </picture>
+      <section class="stats">
+        <h2>Weather Summary</h2>
+        <p>Currently: <span class="currently"> Raining</span></p>
+        <p>High: <span class="high">40</span>&deg;F</p>
+        <p>Wind Chill: <span class="wind-chill"></span>&deg;F</p>
+        <p>Humidity: <span class="humidity">69%</span></p>
+        <p>Wind Speed: <span class="wind-speed">10</span>mph</p>
+      </section>
+    </div>
+    <div class="grid-container">
+      <h2 class="days_subtitle">5 Day Forecast</h2>
+      <div class="forecast">
+        <h4 class="first_day"></h4>
+        <h4 class="second_day"></h4>
+        <h4 class="third_day"></h4>
+        <h4 class="fourth_day"></h4>
+        <h4 class="fifth_day"></h4>
+        <p>5F</p>
+        <p>5F</p>
+        <p>5F</p>
+        <p>5F</p>
+        <p>5F</p>
+      </div>
+      <div class="article">
+        <h2>Article</h2>
+        <h3>Rural Route News</h3>
+        <h4>By Patsy Shipley</h4>
+        <div>
+          <img
+            class="foto_de_article"
+            alt="foto_of_article"
+            src="images/article_preston.jpg"
+          />
+          <p>
+            Thanks to the former Second Ward YW President Julie Dietrich,
+            Counselor MarShel Stockdale, and Secretary Darlene Winn as they have
+            been released and replaced by President Crystal Malcolm, First
+            Counselor Karly Yardley, Second Counselor Stephanie Beck, and
+            Secretary Amy Priestley. Tauma Noel was also called as a specialist
+            in the new presidency.
+          </p>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div class="contact_info">
+          <h2>Contact</h2>
+          <p>The weather Site</p>
+          <p>30 N 1st E</p>
+          <p>Preston, ID 83263</p>
+          <p>999-999-9999</p>
+          <p>tuClimateTime@tws.com</p>
+          <div class="logos">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img
+                class="logo"
+                alt="logo for Facebook"
+                src="images/Facebook-logo.png"
+                width="45"
+            /></a>
+            <a href="https://twitter.com/" target="_blank"
+              ><img
+                class="logo"
+                alt="logo for twitter"
+                src="images/twitter-logo.png"
+                width="30"
+            /></a>
+            <a href="https://www.pinterest.com/" target="_blank"
+              ><img
+                class="logo"
+                alt="logo for pinterest"
+                src="images/pinterest-logo.png"
+                width="43"
+            /></a>
+          </div>
+        </div>
+        <img class="image_contact" alt="map picture" src="images/preston.png" />
+      </div>
+    </div>
+    <div></div>
+    <footer>
+      <p>
+        © <span id="year"></span> | Denis L. Choque | Idaho |
+        <a href="https://www.byui.edu/online">BYUI: Online Learning</a>
+      </p>
+      <h3>Date: <span id="fecha"></span></h3>
+    </footer>
+    <script src="JS/days.js"></script>
+    <script src="JS/windchill.js"></script>
+    <script src="JS/preston.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({ google: { families: ["Roboto"] } });
+    </script>
+  </body>
+</html>
