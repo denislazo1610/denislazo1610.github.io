@@ -1,0 +1,38 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+table thead {
+  background-color: #7fb9c2;
+}
+
+tbody tr:first-child {
+  background-color: #628ca6;
+  color: white;
+}
+
+table {
+  margin-left: 40%;
+  text-align: center;
+  font-family: Ubuntu, sans-serif;
+}
+
+table tfoot {
+  background-color: #7fb9c2;
+}
+
+.diferente {
+  background-color: #628ca6;
+  color: white;
+}
+
+.hidden {
+  background-color: #e7f0ed;
+  background-color: #e7ffed;
+  background-color: #628ca6;
+  background-color: #7fb9c2;
+}
