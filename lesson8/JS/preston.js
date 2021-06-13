@@ -45,3 +45,8 @@ let days = getNumberOfDays(galleryStorage.getItem("lastVisit"), lastVisit);
 document.querySelector("#lastVisit").textContent = days;
 
 galleryStorage.setItem("lastVisit", lastVisit);
+
+// For rating
+function adjustRating(rating) {
+  document.getElementById("ratingvalue").innerHTML = rating;
+}
