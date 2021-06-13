@@ -31,108 +31,28 @@
         <li><a href="gallery-8.html">Gallery</a></li>
       </ul>
     </nav>
-    <h2 class="subTitle">Gallery</h2>
-    <div class="gridFotos">
-      <picture class="fotoContainer">
-        <img
-          class="foto"
-          src="https://via.placeholder.com/400x300?text=Placeholder"
-          data-src="https://images.unsplash.com/photo-1581723012730-b266d033c36f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-          alt="foto"
-        />
-        <div class="overlay">
-          <h1>Hail</h1>
-        </div>
-      </picture>
-      <picture class="fotoContainer">
-        <img
-          class="foto"
-          src="https://via.placeholder.com/400x300?text=Placeholder"
-          data-src="https://images.unsplash.com/photo-1523772721666-22ad3c3b6f90?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
-          alt="foto"
-        />
-        <div class="overlay">
-          <h1>Raining</h1>
-        </div>
-      </picture>
-      <picture class="fotoContainer">
-        <img
-          class="foto"
-          src="https://via.placeholder.com/400x300?text=Placeholder"
-          data-src="https://images.unsplash.com/photo-1500674425229-f692875b0ab7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
-          alt="foto"
-        />
-        <div class="overlay">
-          <h1>Lightning</h1>
-        </div>
-      </picture>
-      <picture class="fotoContainer">
-        <img
-          class="foto"
-          src="https://via.placeholder.com/400x300?text=Placeholder"
-          data-src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
-          alt="foto"
-        />
-        <div class="overlay">
-          <h1>Windy</h1>
-        </div>
-      </picture>
-      <picture class="fotoContainer">
-        <img
-          class="foto"
-          src="https://via.placeholder.com/400x300?text=Placeholder"
-          data-src="https://images.unsplash.com/photo-1594220862488-117b78382514?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80"
-          alt="foto"
-        />
-        <div class="overlay">
-          <h1>Sunny</h1>
-        </div>
-      </picture>
-      <picture class="fotoContainer">
-        <img
-          class="foto"
-          src="https://via.placeholder.com/400x300?text=Placeholder"
-          data-src="https://images.unsplash.com/photo-1485249245068-d8dc50b77cc7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80"
-          alt="foto"
-        />
-        <div class="overlay">
-          <h1>Cloudy</h1>
-        </div>
-      </picture>
-      <picture class="fotoContainer">
-        <img
-          class="foto"
-          src="https://via.placeholder.com/400x300?text=Placeholder"
-          data-src="https://images.unsplash.com/photo-1525962137416-8c60b5f498e8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-          alt="foto"
-        />
-        <div class="overlay">
-          <h1>Partly cloudy</h1>
-        </div>
-      </picture>
-      <picture class="fotoContainer">
-        <img
-          class="foto"
-          src="https://via.placeholder.com/400x300?text=Placeholder"
-          data-src="https://images.unsplash.com/photo-1508165821229-7be282c31b6e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
-          alt="foto"
-        />
-        <div class="overlay">
-          <h1>Fog</h1>
-        </div>
-      </picture>
-      <picture class="fotoContainer">
-        <img
-          class="foto"
-          src="https://via.placeholder.com/400x300?text=Placeholder"
-          data-src="https://images.unsplash.com/photo-1516431883659-655d41c09bf9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80"
-          alt="foto"
-        />
-        <div class="overlay">
-          <h1>Snow</h1>
-        </div>
-      </picture>
-    </div>
+    <h2 class="subTitle">Storm Center</h2>
+
+    <fieldset>
+      <label>Full Name: <input type="text" name="name" /></label><br />
+      <label
+        >eMail:
+        <input type="email" name="email" placeholder="user@email.org" /></label
+      ><br />
+      <label
+        >Phone:
+        <input type="tel" name="phone" placeholder="###-###-####" /> </label
+      ><br />
+      <label for="zip"
+        >Zip Code:
+        <input
+          type="text"
+          id="zip"
+          name="zip"
+          pattern="(\d{5}([\-]\d{4})?)"
+          autocomplete="shipping postal-codep" /></label
+      ><br />
+    </fieldset>
     <footer>
       <p>
         © <span id="year"></span> | Denis L. Choque | Idaho |
