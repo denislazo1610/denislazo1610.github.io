@@ -34,17 +34,17 @@
     <h2 class="subTitle">Storm Center</h2>
 
     <!-- Field Set Section -->
-    <form ></form>
+    <form action="" method="get" class="form-example">
     <fieldset>
-      <label>Full Name: <input type="text" name="name" minlength="4"/></label><br />
+      <label>Full Name: <input type="text" name="name" minlength="4"/></label><br><br>
       <label
-        >eMail:
+        >Email:
         <input type="email" name="email" placeholder="user@email.org" /></label
-      ><br />
+      ><br><br>
       <label
         >Phone:
         <input type="tel" name="phone" placeholder="###-###-####" /> </label
-      ><br />
+      ><br><br>
       <label for="zip"
         >Zip Code:
         <input
@@ -53,8 +53,8 @@
           name="zip"
           pattern="(\d{5}([\-]\d{4})?)"
           autocomplete="shipping postal-codep" /></label
-      ><br />
-      <label> Date: <input type="date" name="theDate"></label><br />
+      ><br><br>
+      <label> Date: <input type="date" name="theDate"></label><br><br>
       <label>Storm Type:
         <input name="stormType" list="stormlist"></label>
       <datalist id="stormlist">
@@ -64,7 +64,7 @@
         <option value="Thunderstorm">
         <option value="Tornado">
       </datalist>
-      <br>
+      <br><br>
       
 
       <label class="flexly" for="rating">Rating: &nbsp;&nbsp;&nbsp;
@@ -90,9 +90,9 @@
       <label>
         <select name="browsers" id="selectbrowser" onchange="selectResponse()">
           <option value="" disabled selected>Select Region ...</option>
-          <option value="Chrome">Preston</option>
-          <option value="Firefox">Soda Springs</option>
-          <option value="MS Edge">Fish Haven</option>
+          <option value="Preston">Preston</option>
+          <option value="Soda Springs">Soda Springs</option>
+          <option value="Fish Haven">Fish Haven</option>
         </select></label>
         <br><br>
 
@@ -110,7 +110,7 @@
           <label for="time4">No</label>
         </div>
         </fieldset>
-
+        <br>
 
        <fieldset style="border:1px solid; border-color:A5ACB2; width:180px; height:60px;">
           <legend style="color:323232;"><b>Post A Comment</b></legend><form method="post"
@@ -119,6 +119,8 @@
            style="border:0px solid; height:50px; width:180px">hello :)</textarea>
           </fieldset></form>
     </fieldset>
+
+  </form>
 
     <!-- End of the form -->
     
