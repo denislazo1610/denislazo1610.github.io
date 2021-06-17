@@ -6,7 +6,7 @@ h1 {
   margin: 0 auto;
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   column-gap: 8px;
   row-gap: 6px;
   max-width: 70%;
@@ -22,7 +22,31 @@ img {
 }
 
 /* MEDIUM */
-/* @media only screen and (min-width: 32.5em) { */
+@media only screen and (min-width: 32.5em) {
+  .cards {
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 8px;
+    row-gap: 6px;
+    max-width: 70%;
+  }
+}
 
 /* BIG */
-/* @media only screen and (min-width: 60em) { */
+@media only screen and (min-width: 60em) {
+  .cards {
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 8px;
+    row-gap: 6px;
+    max-width: 70%;
+
+    border: solid;
+    padding: 9px;
+    box-shadow: inset;
+  }
+}
