@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Benne&display=swap");
+
 h1 {
   text-align: center;
+  font-family: "Benne", serif;
+  color: rgb(4, 63, 114);
 }
 
 .cards {
@@ -19,6 +23,11 @@ img {
 .cards section {
   border: solid;
   background-color: rgb(111, 162, 207);
+}
+
+.cards section h2 {
+  color: rgb(4, 63, 114);
+  font-family: "Benne", serif;
 }
 
 /* MEDIUM */

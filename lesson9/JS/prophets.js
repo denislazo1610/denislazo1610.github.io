@@ -20,7 +20,7 @@ fetch(requestURL)
 
       h2.textContent = prophets[i].name + " " + prophets[i].lastname;
       birthday.textContent = "Date of Birth: " + prophets[i].birthdate;
-      placeBirth.textContent = "Place of Birth: " + prophets[i].placeBirth;
+      placeBirth.textContent = "Place of Birth: " + prophets[i].birthplace;
       image.setAttribute("src", prophets[i].imageurl);
 
       card.appendChild(h2);
