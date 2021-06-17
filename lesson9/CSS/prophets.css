@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+}
+
+.cards {
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 8px;
+  row-gap: 6px;
+  max-width: 70%;
+}
+
+img {
+  width: 200px;
+}
+
+.cards section {
+  border: solid;
+  background-color: rgb(111, 162, 207);
+}
+
+/* MEDIUM */
+/* @media only screen and (min-width: 32.5em) { */
+
+/* BIG */
+/* @media only screen and (min-width: 60em) { */
