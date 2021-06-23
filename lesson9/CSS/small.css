@@ -223,8 +223,24 @@ p {
 
 section {
   display: grid;
+  border: solid;
+  max-width: 70%;
+  margin: 0 auto;
   grid-template-columns: 1fr 1fr;
-  row-gap: 1ch;
+  grid-template-columns: repeat(auto, 1fr);
+}
+
+section img {
+  width: 400px;
+}
+
+section:nth-child(odd) img {
+	grid-column: 2;
+}
+
+section:nth-child(odd) article {
+	grid-column: 1;
+	grid-row: 1;
 }
 
 h2 {
