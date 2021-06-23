@@ -22,10 +22,10 @@ fetch(requestURL)
       let content = document.createElement("article");
       let image = document.createElement("img");
       let name = document.createElement("h1");
-      let motto = document.createElement("h3");
-      let yearFounded = document.createElement("h1");
-      let population = document.createElement("h1");
-      let rainFall = document.createElement("h1");
+      let motto = document.createElement("h6");
+      let yearFounded = document.createElement("h4");
+      let population = document.createElement("h4");
+      let rainFall = document.createElement("h4");
 
       image.src = `images/${town[i].photo}`;
       name.textContent = town[i].name;
