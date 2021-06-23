@@ -18,6 +18,7 @@ fetch(requestURL)
     );
 
     for (let i = 0; i < town.length; i++) {
+      let image = document.createElement("img");
       let card = document.createElement("section");
       let name = document.createElement("h1");
       let motto = document.createElement("h3");
@@ -25,16 +26,18 @@ fetch(requestURL)
       let population = document.createElement("h1");
       let rainFall = document.createElement("h1");
 
-      // let image = document.createElement("img");
-
+      image.src = `images/${town[i].photo}`;
       name.textContent = town[i].name;
       motto.textContent = town[i].motto;
       yearFounded.textContent = `Year Founded: ${town[i].yearFounded}`;
       population.textContent = `Population: ${town[i].currentPopulation}`;
       rainFall.textContent = `Annual Rain Fall: ${town[i].averageRainfall}`;
 
+      console.log(image.src);
+
       //   image.setAttribute("src", prophets[i].imageurl);
 
+      card.appendChild(image);
       card.appendChild(name);
       card.appendChild(motto);
       card.appendChild(yearFounded);
