@@ -234,6 +234,7 @@ section {
   border: solid;
   grid-template-columns: 1fr 1fr;
   text-align: center;
+  background-color: rgb(158, 158, 250);
 }
 
 section img {

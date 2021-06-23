@@ -23,9 +23,9 @@ fetch(requestURL)
       let image = document.createElement("img");
       let name = document.createElement("h1");
       let motto = document.createElement("h6");
-      let yearFounded = document.createElement("h4");
-      let population = document.createElement("h4");
-      let rainFall = document.createElement("h4");
+      let yearFounded = document.createElement("h5");
+      let population = document.createElement("h5");
+      let rainFall = document.createElement("h5");
 
       image.src = `images/${town[i].photo}`;
       name.textContent = town[i].name;
