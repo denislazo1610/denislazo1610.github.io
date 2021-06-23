@@ -18,8 +18,9 @@ fetch(requestURL)
     );
 
     for (let i = 0; i < town.length; i++) {
-      let image = document.createElement("img");
       let card = document.createElement("section");
+      let content = document.createElement("article");
+      let image = document.createElement("img");
       let name = document.createElement("h1");
       let motto = document.createElement("h3");
       let yearFounded = document.createElement("h1");
@@ -33,16 +34,15 @@ fetch(requestURL)
       population.textContent = `Population: ${town[i].currentPopulation}`;
       rainFall.textContent = `Annual Rain Fall: ${town[i].averageRainfall}`;
 
-      console.log(image.src);
-
       //   image.setAttribute("src", prophets[i].imageurl);
 
       card.appendChild(image);
-      card.appendChild(name);
-      card.appendChild(motto);
-      card.appendChild(yearFounded);
-      card.appendChild(population);
-      card.appendChild(rainFall);
+      card.appendChild(content);
+      content.appendChild(name);
+      content.appendChild(motto);
+      content.appendChild(yearFounded);
+      content.appendChild(population);
+      content.appendChild(rainFall);
 
       //   card.appendChild(image);
 
