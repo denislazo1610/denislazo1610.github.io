@@ -219,13 +219,12 @@ p {
   margin: 0 auto;
   max-width: 50%;
   text-align: center;
-  /* margin-left: 20%;
-    margin-right: 30%; */
 }
 
 section {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  row-gap: 1ch;
 }
 
 h2 {
