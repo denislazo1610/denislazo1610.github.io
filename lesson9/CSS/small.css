@@ -223,6 +223,11 @@ p {
     margin-right: 30%; */
 }
 
+article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 h2 {
   border: solid;
 }
