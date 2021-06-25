@@ -146,16 +146,15 @@
 
   section img {
     grid-row: 2;
-    grid-column: 0;
   }
 
   section:nth-child(odd) img {
     grid-column: 1;
   }
-  
+
   section article {
     grid-row: 1;
-    grid-column:1;
+    grid-column: 1;
   }
 
   footer {
