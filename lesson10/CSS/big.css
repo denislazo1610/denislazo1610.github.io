@@ -1,0 +1,184 @@
+@media only screen and (min-width: 60em) {
+    header {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      padding-left: 35%;
+      padding-right: 65%;
+      max-width: 70%;
+      margin: 0 auto;
+    }
+  
+    picture {
+      margin-left: 18%;
+    }
+  
+    .gridFotos {
+      padding-top: 2%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+    .stats {
+      position: absolute;
+      top: 25px;
+      left: 250px;
+      background: radial-gradient(#eee, #4567aa);
+      border: 1px solid #000;
+      padding: 1.5rem;
+      box-shadow: 0 0 30px #333;
+      opacity: 0.9;
+    }
+  
+    .navigation {
+      display: flex;
+      list-style: none;
+      text-align: center;
+      padding: 0;
+    }
+  
+    .navigation li {
+      display: block;
+      flex: 1 1 auto;
+      border: solid;
+    }
+  
+    .navigation li:first-child {
+      display: none;
+    }
+  
+    .days_subtitle {
+      text-align: center;
+      display: block;
+    }
+  
+    .forecast {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+  
+    .forecast h4 {
+      grid-row: 1/2;
+      background-color: rgb(134, 243, 134);
+      text-align: center;
+      padding-top: 2px;
+      border: solid;
+      margin: 0 !important;
+    }
+  
+    .forecast p {
+      grid-row: 2/3;
+      text-align: center;
+      border: solid;
+      margin: 0 !important;
+    }
+  
+    .contact {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      background-color: bisque;
+    }
+  
+    .contact .contact_info {
+      grid-column: 2/3;
+      margin: 5px 10px;
+    }
+  
+    .contact_info h2,
+    p {
+      background-color: white;
+    }
+  
+    .logos {
+      margin-left: -7%;
+    }
+  
+    .image_contact {
+      grid-column: 1/2;
+      grid-row: 1/2;
+      border: solid;
+      width: 300px;
+      margin: 5px auto;
+    }
+  
+    .contact h3 {
+      grid-column: 2/3;
+      grid-row: 1/2;
+    }
+  
+    .grid-container h3 {
+      border: solid;
+      padding-left: 2%;
+    }
+  
+    .foto_de_article {
+      width: 330px;
+      float: right;
+    }
+  
+    .article p {
+      margin-bottom: 8%;
+      padding: 30px;
+    }
+  
+    .towns_info {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 5px;
+      max-width: 70%;
+      margin: 0 auto;
+    }
+  
+    section {
+      display: grid;
+      border: solid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      text-align: center;
+      background-color: rgb(158, 158, 250);
+    }
+  
+    section img {
+      grid-row: 2;
+    }
+  
+    section:nth-child(odd) img {
+      grid-column: 1;
+    }
+  
+    section article {
+      grid-row: 1;
+      grid-column: 1;
+    }
+  
+    footer {
+      background-color: rgb(231, 231, 231);
+      text-align: center;
+      border-radius: 10px;
+      margin: 0 auto;
+      padding-bottom: 5px;
+    }
+  
+    footer p {
+      border-radius: 10px;
+      color: black;
+      padding-top: 10px;
+    }
+  
+    footer h4 {
+      color: black;
+      margin-top: -10px;
+      padding-bottom: 10px;
+    }
+  
+    footer p a {
+      color: black;
+    }
+  }
+  
