@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TuClimaTime</title>
+    <meta
+      name="description"
+      content="This website will tell the weather of a specific city. It will contain information about the wind speed, humidity, etc. This will also show maps in it"
+    />
+    <link rel="stylesheet" href="CSS/small.css" />
+    <link rel="stylesheet" href="CSS/medium.css" />
+    <link rel="stylesheet" href="CSS/big.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <div class="advertencia"></div>
+    <header>
+      <img class="imagen" alt="nube_logo" src="images/logo.png" />
+      <h1 class="title">TuClimateTime</h1>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li onclick="toggleMenu()"><a class="boton">Menu</a></li>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="preston-9.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery-9.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <h2 class="subTitle">Preston Idaho</h2>
+    <div class="herodiv">
+      <picture>
+        <source media="(max-width: 520px)" srcset="images/hero_small.jpg" />
+        <source media="(max-width: 960px)" srcset="images/hero_medium.jpg" />
+        <img alt="portada" src="images/hero_large.jpg" />
+        <!-- <img class="portada" alt="portada" src="images/portada.jpg" /> -->
+      </picture>
+    </div>
+    <div class="towns_info"></div>
+    <div class="grid-container">
+      <div class="contact">
+        <div class="contact_info">
+          <h2>Contact</h2>
+          <p>The weather Site</p>
+          <p>30 N 1st E</p>
+          <p>Preston, ID 83263</p>
+          <p>999-999-9999</p>
+          <p>tuClimateTime@tws.com</p>
+          <div class="logos">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img
+                class="logo"
+                alt="logo for Facebook"
+                src="images/Facebook-logo.png"
+                width="45"
+            /></a>
+            <a href="https://twitter.com/" target="_blank"
+              ><img
+                class="logo"
+                alt="logo for twitter"
+                src="images/twitter-logo.png"
+                width="30"
+            /></a>
+            <a href="https://www.pinterest.com/" target="_blank"
+              ><img
+                class="logo"
+                alt="logo for pinterest"
+                src="images/pinterest-logo.png"
+                width="43"
+            /></a>
+          </div>
+        </div>
+        <img class="image_contact" alt="map picture" src="images/preston.png" />
+      </div>
+    </div>
+    <div></div>
+    <footer>
+      <p>
+        © <span id="year"></span> | Denis L. Choque | Idaho |
+        <a href="https://www.byui.edu/online">BYUI: Online Learning</a>
+      </p>
+      <h3>Date: <span id="fecha"></span></h3>
+    </footer>
+    <script src="JS/towns_info.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({ google: { families: ["Roboto"] } });
+    </script>
+  </body>
+</html>
