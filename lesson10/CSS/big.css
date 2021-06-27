@@ -27,9 +27,14 @@
       left: 250px;
       background: radial-gradient(#eee, #4567aa);
       border: 1px solid #000;
+      grid-template-rows: 1fr;
       padding: 1.5rem;
       box-shadow: 0 0 30px #333;
       opacity: 0.9;
+    }
+
+    .stats p {
+      background-color: transparent;
     }
   
     .navigation {
@@ -134,6 +139,7 @@
       max-width: 70%;
       margin: 0 auto;
     }
+
   
     section {
       display: grid;
