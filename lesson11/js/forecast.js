@@ -6,14 +6,16 @@ const prestonIdForecast = '5604473';
 const sodaSpringsForecast = '5607916';
 const fishHavenForecast = '5585010';
 
-const nombreForecast = document.querySelector('.subTitle').textContent;
+var nombreForecast = document.querySelector('.subTitle').textContent;
 
 if(nombreForecast == "Preston"){
   idCity = prestonIdForecast;
 } else if (nombreForecast == "Soda Springs"){
   idCity = sodaSpringsForecast;
+  nombreForecast = "Springs";
 } else if (nombreForecast == "Fish Haven"){
   idCity = fishHavenForecast;
+  nombreForecast = "Haven";
 }
 
 
