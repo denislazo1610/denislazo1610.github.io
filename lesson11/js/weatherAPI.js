@@ -1,12 +1,10 @@
 var idCity = '';
 
-
 const prestonId = '5604473';
 const sodaSprings = '5607916';
 const fishHaven = '5585010';
 
 const nombre = document.querySelector('.subTitle').textContent;
-console.log(nombre);
 
 if(nombre == "Preston"){
   idCity = prestonId;
@@ -20,7 +18,7 @@ const APPID = '998a024b00b4d5372043d31a8e17db75';
 
 const apiURL =
   `https://api.openweathermap.org/data/2.5/weather?id=${idCity}&appid=${APPID}&units=imperial`;
-  `https://api.openweathermap.org/data/2.5/forecast?id=${idCity}&appid=${APPID}&units=imperial`;
+  // `https://api.openweathermap.org/data/2.5/forecast?id=${idCity}&appid=${APPID}&units=imperial`;
 
 fetch(apiURL)
   .then((response) => response.json())
