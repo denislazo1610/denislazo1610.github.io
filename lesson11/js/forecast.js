@@ -25,9 +25,10 @@ fetch(apiURLForecast)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    // document.querySelector('.currently').textContent = jsObject.main.temp;
-    // document.querySelector('.high').textContent = jsObject.main.temp_max;
-    // document.querySelector('.humidity').textContent = jsObject.main.humidity;
-    // document.querySelector('.wind-speed').textContent = jsObject.wind.speed;
+
+    for(var i = 0; i < 5; i++){
+        document.querySelector(`.${nombreForecast}${i}Day`).textContent = jsObject.list[i].main.temp;
+    }
+
   });
 
