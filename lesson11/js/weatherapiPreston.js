@@ -10,13 +10,10 @@ console.log(nombre);
 
 if(nombre == "Preston"){
   idCity = prestonId;
-  // console.log(`el codigo de ${nombre} es ${idCity}`);
 } else if (nombre == "Soda Springs"){
   idCity = sodaSprings;
-  // console.log(`el codigo de ${nombre} es ${idCity}`);
 } else if (nombre == "Fish Haven"){
   idCity = fishHaven;
-  // console.log(`el codigo de ${nombre} es ${idCity}`);
 }
 
 const APPID = '998a024b00b4d5372043d31a8e17db75';
