@@ -4,6 +4,7 @@ nav {
   }
   
   header {
+    background-color: rgb(184, 184, 184);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
