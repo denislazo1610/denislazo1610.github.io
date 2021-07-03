@@ -1,3 +1,5 @@
+const APPID = '998a024b00b4d5372043d31a8e17db75';
+
 var idCity = '';
 
 const prestonId = '5604473';
@@ -14,7 +16,6 @@ if(nombre == "Preston"){
   idCity = fishHaven;
 }
 
-const APPID = '998a024b00b4d5372043d31a8e17db75';
 
 const apiURL =
   `https://api.openweathermap.org/data/2.5/weather?id=${idCity}&appid=${APPID}&units=imperial`;
