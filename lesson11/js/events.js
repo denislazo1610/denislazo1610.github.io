@@ -26,40 +26,12 @@ fetch(apiURLEvents)
         console.log(`this is ${nombreEvents}`);
 
         for (let x = 0; x < town[i].events.length; x++) {
+          let sentence = document.createElement("p");
+          sentence.textContent = town[i].events[x];
+
+          document.querySelector(".dates").appendChild(sentence);
           console.log(town[i].events[x]);
         }
       }
     }
-
-    // for (let i = 0; i < town.length; i++) {
-    //   let card = document.createElement("section");
-    //   let content = document.createElement("article");
-    //   let image = document.createElement("img");
-    //   let name = document.createElement("h1");
-    //   let motto = document.createElement("h6");
-    //   let yearFounded = document.createElement("h5");
-    //   let population = document.createElement("h5");
-    //   let rainFall = document.createElement("h5");
-
-    //   image.src = `images/${town[i].photo}`;
-    //   name.textContent = town[i].name;
-    //   motto.textContent = town[i].motto;
-    //   yearFounded.textContent = `Year Founded: ${town[i].yearFounded}`;
-    //   population.textContent = `Population: ${town[i].currentPopulation}`;
-    //   rainFall.textContent = `Annual Rain Fall: ${town[i].averageRainfall}`;
-
-    //   //   image.setAttribute("src", prophets[i].imageurl);
-
-    //   card.appendChild(image);
-    //   card.appendChild(content);
-    //   content.appendChild(name);
-    //   content.appendChild(motto);
-    //   content.appendChild(yearFounded);
-    //   content.appendChild(population);
-    //   content.appendChild(rainFall);
-
-    //   //   card.appendChild(image);
-
-    //   document.querySelector("div.towns_info").appendChild(card);
-    // }
   });
