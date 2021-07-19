@@ -95,16 +95,14 @@
 
   .contact {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    /* grid-template-rows: 1fr; */
-    grid-column-gap: 0px;
+    grid-template-rows: 1fr 1fr;
     grid-row-gap: 0px;
     background-color: rgb(172, 159, 143);
   }
 
-  .contact .contact_info {
-    grid-column: 2/3;
-    margin: 5px 10px;
+  .contact_info {
+    grid-row: 1/2;
+    margin: 0px 0px;
   }
 
   .contact_info h2,
@@ -117,15 +115,15 @@
   }
 
   .image_contact {
-    grid-column: 1/2;
-    grid-row: 1/2;
+    grid-row: 2/3;
+    /* grid-row: 1/2; */
     border: solid;
-    width: 300px;
+    width: 200px;
     margin: 5px auto;
   }
 
   .contact h3 {
-    grid-column: 2/3;
+    /* grid-column: 2/3; */
     grid-row: 1/2;
   }
 
