@@ -10,13 +10,6 @@ fetch("json/info.json")
     console.table(jsonObject); // temporary checking for valid response and data parsing
     const businesses = jsonObject["businesses"];
 
-    // const town = towns.filter(
-    //   (x) =>
-    //     x.name == "Preston" ||
-    //     x.name == "Soda Springs" ||
-    //     x.name == "Fish Haven"
-    // );
-
     for (let i = 0; i < businesses.length; i++) {
       let card = document.createElement("section");
       let content = document.createElement("article");
