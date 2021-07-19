@@ -95,11 +95,11 @@
 
   .contact {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    /* grid-template-rows: 1fr; */
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    background-color: bisque;
+    background-color: rgb(172, 159, 143);
   }
 
   .contact .contact_info {
@@ -132,6 +132,8 @@
   .grid-container {
     display: grid;
     grid-template-columns: 60% 40%;
+    grid-column-gap: 5px;
+    justify-content: center;
   }
 
   .grid-container h3 {
@@ -149,11 +151,12 @@
     padding: 30px;
   }
 
-  .towns_info {
+  .business_info {
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 5px;
-    max-width: 70%;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 5px;
+    /* max-width: 100%; */
     margin: 0 auto;
   }
 

@@ -31,9 +31,9 @@ fetch("json/info.json")
 
       // card.appendChild(image);
       // card.appendChild(summary);
-      content.appendChild(name);
+      card.appendChild(name);
       // content.appendChild(button);
 
-      document.querySelector(".grid-container.business_info").appendChild(card);
+      document.querySelector(".business_info").appendChild(card);
     }
   });
