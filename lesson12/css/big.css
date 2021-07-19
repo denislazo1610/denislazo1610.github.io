@@ -131,7 +131,7 @@
 
   .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 60% 40%;
   }
 
   .grid-container h3 {

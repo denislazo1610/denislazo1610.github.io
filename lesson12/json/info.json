@@ -1,0 +1,25 @@
+{
+  "business": [
+    {
+      "name": "primer business",
+      "description": "description in paragraph",
+      "address": "location",
+      "rating": "starts",
+      "button": "button's name"
+    },
+    {
+      "name": "segundo business",
+      "description": "description in paragraph",
+      "address": "location",
+      "rating": "starts",
+      "button": "button's name"
+    },
+    {
+      "name": "tercer business",
+      "description": "description in paragraph",
+      "address": "location",
+      "rating": "starts",
+      "button": "button's name"
+    }
+  ]
+}
