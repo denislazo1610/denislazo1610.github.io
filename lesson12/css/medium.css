@@ -1,4 +1,6 @@
 @media only screen and (min-width: 32.5em) {
+
+  /* All Pages */
   header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -9,28 +11,6 @@
     margin: 0 auto;
     padding-left: 25%;
     padding-right: 75%;
-  }
-
-  .contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-  }
-
-  .contact_info {
-    grid-column: 1/2;
-    grid-row: 1;
-    padding-left: 0;
-  }
-
-  .logos {
-    padding-left: 27%;
-  }
-
-  .image_contact {
-    grid-column: 2/3;
-    grid-row: 1;
-    width: 100%;
   }
 
   footer {
@@ -57,4 +37,30 @@
   footer p a {
     color: black;
   }
+
+
+  /* Home Page */
+
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .contact_info {
+    grid-column: 1/2;
+    grid-row: 1;
+    padding-left: 0;
+  }
+
+  .logos {
+    padding-left: 27%;
+  }
+
+  .image_contact {
+    grid-column: 2/3;
+    grid-row: 1;
+    width: 100%;
+  }
+
 }

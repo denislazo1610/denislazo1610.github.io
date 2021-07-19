@@ -1,3 +1,5 @@
+/* All Pages */
+
 nav {
   background-color: #005c99;
   margin: 0 auto;
@@ -12,6 +14,31 @@ header {
   grid-row-gap: 0px;
   max-width: 100%;
   margin: 0 auto;
+}
+
+footer {
+  background-color: rgb(231, 231, 231);
+  text-align: center;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+footer p {
+  border-radius: 10px;
+  color: black;
+  padding-top: 10px;
+}
+
+footer h4 {
+  color: black;
+  margin-top: -10px;
+  padding-bottom: 10px;
+}
+
+footer p a {
+  color: black;
 }
 
 /* Home page  */
@@ -194,29 +221,4 @@ section:nth-child(odd) article {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 5px;
-}
-
-footer {
-  background-color: rgb(231, 231, 231);
-  text-align: center;
-  border-radius: 10px;
-  margin: 0 auto;
-  padding-bottom: 5px;
-  width: 100%;
-}
-
-footer p {
-  border-radius: 10px;
-  color: black;
-  padding-top: 10px;
-}
-
-footer h4 {
-  color: black;
-  margin-top: -10px;
-  padding-bottom: 10px;
-}
-
-footer p a {
-  color: black;
 }
