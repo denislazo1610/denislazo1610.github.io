@@ -16,12 +16,13 @@ fetch("json/info.json")
       let name = document.createElement("h1");
       let summary = document.createElement("p");
       let image = document.createElement("img");
-      let button = document.createElement("button");
+      let button = document.createElement("a");
 
       image.src = businesses[i].image;
       name.textContent = businesses[i].name;
       button.textContent = businesses[i].button;
       summary.textContent = businesses[i].summary;
+      button.setAttribute("href", "join.html");
 
       card.appendChild(image);
       card.appendChild(content);
