@@ -206,12 +206,13 @@ h3 {
   grid-template-rows: 1fr 1fr;
   background-color: bisque;
   justify-content: center;
-  width: 100%;
+  width: 80%;
 }
 
 .contact_info {
   grid-row: 1/2;
   margin: 0px 0px;
+  text-align: center;
 }
 
 .contact_info h2,
