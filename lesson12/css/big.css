@@ -96,6 +96,7 @@
   .contact {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-row-gap: 0px;
     background-color: rgb(172, 159, 143);
     margin-left: 0px;
@@ -118,6 +119,7 @@
 
   .image_contact {
     grid-row: 2/3;
+    grid-column: 1/2;
     border: solid;
     width: 300px;
     margin: 5px auto;
