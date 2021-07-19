@@ -102,6 +102,7 @@
 
   .contact_info {
     grid-row: 1/2;
+    grid-column: 1/2;
     margin: 0px 0px;
   }
 

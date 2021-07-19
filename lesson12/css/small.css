@@ -198,7 +198,7 @@ h3 {
   background-color: bisque;
 }
 
-.contact .contact_info {
+.contact_info {
   grid-column: 2/3;
   margin: 0px 10px;
 }
