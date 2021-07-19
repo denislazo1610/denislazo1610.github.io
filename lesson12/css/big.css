@@ -11,8 +11,19 @@
     margin: 0 auto;
   }
 
-  picture {
+  /* picture {
     margin-left: 18%;
+  } */
+
+  .herodiv {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mainPhoto {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
   }
 
   .gridFotos {
