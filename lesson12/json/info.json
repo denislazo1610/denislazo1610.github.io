@@ -1,7 +1,7 @@
 {
   "businesses": [
     {
-      "name": "primer business",
+      "name": "Primer business",
       "summary": "quick Summary",
       "description": "description in paragraph",
       "address": "location",
@@ -9,7 +9,7 @@
       "button": "button's name"
     },
     {
-      "name": "segundo business",
+      "name": "Segundo business",
       "summary": "quick Summary",
       "description": "description in paragraph",
       "address": "location",
@@ -17,7 +17,7 @@
       "button": "button's name"
     },
     {
-      "name": "tercer business",
+      "name": "Tercer business",
       "summary": "quick Summary",
       "description": "description in paragraph",
       "address": "location",

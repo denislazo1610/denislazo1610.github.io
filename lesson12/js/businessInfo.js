@@ -19,6 +19,7 @@ fetch("json/info.json")
 
     for (let i = 0; i < businesses.length; i++) {
       let card = document.createElement("section");
+      let content = document.createElement("article");
       let name = document.createElement("h1");
       let summary = document.createElement("p");
       let image = document.createElement("img");
@@ -29,10 +30,11 @@ fetch("json/info.json")
       button.textContent = businesses[i].button;
       summary.textContent = businesses[i].summary;
 
-      // card.appendChild(image);
-      // card.appendChild(summary);
-      card.appendChild(name);
-      // content.appendChild(button);
+      card.appendChild(image);
+      card.appendChild(content);
+      content.appendChild(name);
+      content.appendChild(summary);
+      content.appendChild(button);
 
       document.querySelector(".business_info").appendChild(card);
     }

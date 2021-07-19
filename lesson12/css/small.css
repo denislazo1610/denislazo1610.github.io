@@ -14,6 +14,13 @@ header {
   margin: 0 auto;
 }
 
+.mainPhoto {
+  margin-left: auto;
+  margin-right: auto;
+  width: 650px;
+  height: 300px;
+}
+
 .gridFotos {
   display: grid;
 }
@@ -75,8 +82,8 @@ picture {
 }
 
 .herodiv {
-  margin: 10px auto;
-  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .stats {
@@ -161,9 +168,9 @@ h3 {
 .grid-container {
   margin: 0 auto;
   display: grid;
-  row-gap: 0px;
-  max-width: 80%;
-  margin-top: 50px;
+  row-gap: 10px;
+  max-width: 95%;
+  margin-top: 45px;
   justify-content: center;
 }
 
@@ -195,12 +202,16 @@ h3 {
 }
 
 .contact {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
   background-color: bisque;
+  justify-content: center;
+  width: 100%;
 }
 
 .contact_info {
-  grid-column: 2/3;
-  margin: 0px 10px;
+  grid-row: 1/2;
+  margin: 0px 0px;
 }
 
 .contact_info h2,
@@ -212,9 +223,11 @@ p {
   padding-left: 27%;
 }
 
-/* .image_contact {
-      size: 20px;
-    } */
+.image_contact {
+  grid-row: 2/3;
+  width: 300px;
+  border: solid;
+}
 
 .form {
   padding-top: 1%;
@@ -233,6 +246,7 @@ p {
 }
 
 section {
+  width: 100%;
   display: grid;
   border: solid;
   grid-template-columns: 1fr 1fr;
@@ -241,9 +255,9 @@ section {
 }
 
 section img {
-  width: 250px;
-  height: 180px;
-  margin: 20px;
+  width: 100%;
+  /* height: 180px; */
+  margin: 10px;
 }
 
 section h6 {
