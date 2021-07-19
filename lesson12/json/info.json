@@ -1,28 +1,28 @@
 {
   "businesses": [
     {
-      "name": "Primer business",
-      "summary": "quick Summary",
+      "name": "Marriott El Convento Cusco",
+      "summary": "Do not know where to stay? Do not worry! We got you",
       "description": "description in paragraph",
       "address": "location",
       "rating": "starts",
-      "button": "button's name"
+      "button": "Book a room now"
     },
     {
-      "name": "Segundo business",
-      "summary": "quick Summary",
+      "name": "El Reencuentro Restaurant",
+      "summary": "Are you hungry? We have the best peruvian dished in ",
       "description": "description in paragraph",
       "address": "location",
       "rating": "starts",
-      "button": "button's name"
+      "button": "Reserve a table now"
     },
     {
-      "name": "Tercer business",
-      "summary": "quick Summary",
+      "name": "Machupicchu Wayna",
+      "summary": "Do you know where to start your trip in Cusco? If you do not, we got you!",
       "description": "description in paragraph",
       "address": "location",
       "rating": "starts",
-      "button": "button's name"
+      "button": "Save yourr spot now"
     }
   ]
 }
