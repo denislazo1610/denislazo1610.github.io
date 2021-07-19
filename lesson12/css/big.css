@@ -11,10 +11,6 @@
     margin: 0 auto;
   }
 
-  /* picture {
-    margin-left: 18%;
-  } */
-
   .herodiv {
     display: flex;
     justify-content: center;
@@ -33,22 +29,6 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .stats {
-    position: absolute;
-    top: 25px;
-    left: 250px;
-    background: radial-gradient(#eee, #4567aa);
-    border: 1px solid #000;
-    grid-template-rows: 1fr;
-    padding: 1.5rem;
-    box-shadow: 0 0 30px #333;
-    opacity: 0.9;
-  }
-
-  .stats p {
-    background-color: transparent;
-  }
-
   .navigation {
     display: flex;
     list-style: none;
@@ -64,33 +44,6 @@
 
   .navigation li:first-child {
     display: none;
-  }
-
-  .days_subtitle {
-    text-align: center;
-    display: block;
-  }
-
-  .forecast {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-
-  .forecast h4 {
-    grid-row: 1/2;
-    background-color: rgb(134, 243, 134);
-    text-align: center;
-    padding-top: 2px;
-    border: solid;
-    margin: 0 !important;
-  }
-
-  .forecast p {
-    grid-row: 2/3;
-    text-align: center;
-    border: solid;
-    margin: 0 !important;
   }
 
   .contact {
@@ -143,15 +96,8 @@
     padding-left: 2%;
   }
 
-  .foto_de_article {
-    width: 330px;
-    float: right;
-  }
-
   .article p {
-    /* height: 200px; */
     padding-bottom: 200px;
-    /* padding: 30px; */
   }
 
   .business_info {
@@ -177,18 +123,6 @@
 
   section:nth-child(even) article {
     grid-column: 2;
-  }
-
-  .events p {
-    margin: 10px;
-    max-width: 50%;
-    margin-left: 23%;
-    border: none;
-    background-color: antiquewhite;
-  }
-
-  .events {
-    padding-bottom: 30px;
   }
 
   footer {
