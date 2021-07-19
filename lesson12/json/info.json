@@ -16,7 +16,7 @@
       "address": "location",
       "rating": "starts",
       "button": "Reserve a table now",
-      "image": ""
+      "image": "images/ElReencuentroRestaurant.jpg"
     },
     {
       "name": "Machupicchu Wayna",
@@ -25,7 +25,7 @@
       "address": "location",
       "rating": "starts",
       "button": "Save yourr spot now",
-      "image": ""
+      "image": "images/MachupicchuWayna.jpg"
     }
   ]
 }
