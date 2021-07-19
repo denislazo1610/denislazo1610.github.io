@@ -1,5 +1,4 @@
 @media only screen and (min-width: 32.5em) {
-
   /* All Pages */
   header {
     display: grid;
@@ -38,12 +37,17 @@
     color: black;
   }
 
-
   /* Home Page */
+
+  section img {
+    width: 200px;
+    height: 150px;
+  }
 
   .contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;
     grid-template-rows: 1fr;
   }
 
@@ -60,7 +64,7 @@
   .image_contact {
     grid-column: 2/3;
     grid-row: 1;
-    width: 100%;
+    margin-top: 30px;
+    width: 90%;
   }
-
 }

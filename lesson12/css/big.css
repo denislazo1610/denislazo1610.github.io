@@ -141,6 +141,14 @@
     grid-row: 1;
   }
 
+  section img {
+    width: 80%;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
   section:nth-child(even) article {
     grid-column: 2;
   }

@@ -206,7 +206,6 @@ section {
 
 section img {
   width: 100%;
-  margin: 5px 20px;
 }
 
 section:nth-child(odd) img {
