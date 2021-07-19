@@ -6,7 +6,8 @@
       "description": "description in paragraph",
       "address": "location",
       "rating": "starts",
-      "button": "Book a room now"
+      "button": "Book a room now",
+      "image": "images/MarriottElConventoCusco.jpg"
     },
     {
       "name": "El Reencuentro Restaurant",
@@ -14,7 +15,8 @@
       "description": "description in paragraph",
       "address": "location",
       "rating": "starts",
-      "button": "Reserve a table now"
+      "button": "Reserve a table now",
+      "image": ""
     },
     {
       "name": "Machupicchu Wayna",
@@ -22,7 +24,8 @@
       "description": "description in paragraph",
       "address": "location",
       "rating": "starts",
-      "button": "Save yourr spot now"
+      "button": "Save yourr spot now",
+      "image": ""
     }
   ]
 }

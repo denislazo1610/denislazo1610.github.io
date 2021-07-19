@@ -25,7 +25,7 @@ fetch("json/info.json")
       let image = document.createElement("img");
       let button = document.createElement("button");
 
-      image.src = `images/${businesses[i].photo}`;
+      image.src = businesses[i].image;
       name.textContent = businesses[i].name;
       button.textContent = businesses[i].button;
       summary.textContent = businesses[i].summary;
