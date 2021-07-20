@@ -94,12 +94,16 @@
         </div>
         <h2>3 Day Forecast</h2>
         <div class="forecast">
-          <h4 class="first_day"></h4>
-          <h4 class="second_day"></h4>
-          <h4 class="third_day"></h4>
-          <p><span class="Cusco0Day"></span>&deg;F</p>
-          <p><span class="Cusco1Day"></span>&deg;F</p>
-          <p><span class="Cusco2Day"></span>&deg;F</p>
+          <div class="dayNames">
+            <h4 class="first_day"></h4>
+            <h4 class="second_day"></h4>
+            <h4 class="third_day"></h4>
+          </div>
+          <div class="dayTemp">
+            <p><span class="Cusco0Day"></span>&deg;F</p>
+            <p><span class="Cusco1Day"></span>&deg;F</p>
+            <p><span class="Cusco2Day"></span>&deg;F</p>
+          </div>
         </div>
       </div>
     </div>
@@ -113,6 +117,7 @@
     <script src="js/cuscoWeatherAPI.js"></script>
     <script src="js/businessInfo.js"></script>
     <script src="js/forecast.js"></script>
+    <script src="js/days.js"></script>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> -->
     <!-- <script>
       WebFont.load({ google: { families: ["Roboto"] } });
