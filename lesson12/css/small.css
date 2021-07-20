@@ -263,3 +263,37 @@ section:nth-child(odd) article {
   border: solid;
   padding-left: 20px;
 }
+
+/* City Page */
+
+.history {
+  width: 80%;
+  border: solid;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 90%;
+}
+
+.history .paragraphs {
+  grid-column: 1;
+  margin: 0 auto 0 auto;
+  padding-bottom: auto;
+  width: 80%;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.history img {
+  visibility: hidden;
+}
+
+.history h2 {
+  text-align: center;
+}
+
+.cityThird_Photo {
+  width: 100%;
+  margin: 0 auto;
+  visibility: hidden;
+}

@@ -189,6 +189,8 @@
     margin: 20px auto;
     grid-column: 2;
     grid-row: 2;
+    display: on;
+    visibility: visible;
   }
 
   .history h2 {
