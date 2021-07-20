@@ -272,28 +272,29 @@ section:nth-child(odd) article {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 10% 90%;
+  grid-template-rows: 10% auto auto;
 }
 
 .history .paragraphs {
-  grid-column: 1;
   margin: 0 auto 0 auto;
-  padding-bottom: auto;
+  padding-bottom: 0;
   width: 80%;
   grid-column: 1/2;
   grid-row: 2/3;
 }
 
 .history img {
-  visibility: hidden;
+  grid-row: 3/4;
+  width: 40%;
+  margin: 0 auto;
 }
 
 .history h2 {
   text-align: center;
+  grid-column: 1;
 }
 
 .cityThird_Photo {
   width: 100%;
   margin: 0 auto;
-  visibility: hidden;
 }
