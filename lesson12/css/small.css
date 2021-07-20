@@ -233,12 +233,11 @@ section:nth-child(odd) article {
 .clima {
   margin: 0 auto;
   width: 90%;
-  /* border: solid; */
 }
 
 .grid-weather {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: 30% 70%;
 }
 
@@ -262,6 +261,11 @@ section:nth-child(odd) article {
   margin: 0 auto;
   border: solid;
   padding-left: 20px;
+}
+
+.forecast {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 /* City Page */
