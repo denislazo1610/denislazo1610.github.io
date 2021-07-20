@@ -167,5 +167,36 @@
   }
 
   /* City Page */
-  
+
+  .history {
+    width: 80%;
+    border: solid;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
+
+  .history p {
+    grid-column: 1;
+    margin: 0 auto 7px auto;
+    width: 80%;
+    grid-column: 1/2;
+    grid-row: 2;
+  }
+
+  .history img {
+    margin: 1px auto 150px auto;
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .history h2 {
+    text-align: center;
+  }
+
+  .cityThird_Photo {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
