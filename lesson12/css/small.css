@@ -225,8 +225,15 @@ section:nth-child(odd) article {
 
 .events {
   width: 80%;
-  border: solid;
+  /* border: solid; */
   margin: 5px auto;
   text-align: center;
   background-color: bisque;
+}
+
+.clima {
+  margin: 0 auto;
+  width: 90%;
+  border: solid;
+  background-color: #005c99;
 }
