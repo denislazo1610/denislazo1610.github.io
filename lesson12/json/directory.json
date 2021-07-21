@@ -2,25 +2,45 @@
   "businesses": [
     {
       "name": "Marriott El Convento Cusco",
-      "contact": "blablabla",
-      "logo": "",
-      "link": ""
+      "contact": "Phone: +51 84 582200",
+      "logo": "images/marriotLogo.png",
+      "link": "https://www.marriott.com/hotels/travel/cuzmc-jw-marriott-el-convento-cusco/"
     },
     {
       "name": "El Reencuentro Restaurant",
-      "contact": "",
-      "logo": "",
-      "link": ""
+      "contact": "Phone: +51 984 962 223",
+      "logo": "images/elReencuentrologo.jpg",
+      "link": "https://www.tripadvisor.com.pe/Restaurant_Review-g294314-d17672604-Reviews-EL_Reencuentro-Cusco_Cusco_Region.html"
     },
     {
       "name": "Machupicchu Wayna",
-      "contact": "blablabla",
-      "logo": "",
-      "link": ""
+      "contact": "Phone: +51 969-778408",
+      "logo": "images/WaynaLogo.png",
+      "link": "https://machupicchuwayna.com/quienes-somos/"
     },
-    { "name": "negocio4", "contact": "blablabla", "logo": "", "link": "" },
-    { "name": "negocio5", "contact": "blablabla", "logo": "", "link": "" },
-    { "name": "negocio6", "contact": "blablabla", "logo": "", "link": "" },
-    { "name": "negocio7", "contact": "blablabla", "logo": "", "link": "" }
+    {
+      "name": "Hilton Garden Inn Cusco",
+      "contact": "Phone: +51 84 580130",
+      "logo": "images/gardenInnLogo.png",
+      "link": "https://www.hilton.com/en/hotels/cuzgigi-hilton-garden-inn-cusco/"
+    },
+    {
+      "name": "Abra Bistro",
+      "contact": "Phone: +51 84 783985",
+      "logo": "images/abraLogo.jpg",
+      "link": "https://www.facebook.com/abrabistro/"
+    },
+    {
+      "name": "La Huerta Del Tata",
+      "contact": "Phone: +51 992 124 371",
+      "logo": "images/huertaLogo.jpg",
+      "link": "https://m.facebook.com/pages/category/Restaurant/La-huerta-del-TATA-1565158003614333/"
+    },
+    {
+      "name": "Novotel Cusco",
+      "contact": "Phone: +51 84 581033",
+      "logo": "images/novotelLogo.svg",
+      "link": "https://all.accor.com/hotel/3254/index.en.shtml?utm_campaign=seo+maps&utm_medium=seo+maps&utm_source=google+Maps"
+    }
   ]
 }

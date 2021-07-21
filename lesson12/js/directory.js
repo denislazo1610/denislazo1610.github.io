@@ -16,6 +16,7 @@ fetch("json/directory.json")
         "1fr 1fr 1fr";
 
       let directories = document.querySelector(".contentDirectory");
+      directories.style.width = "100%";
       while (directories.firstChild) {
         directories.removeChild(directories.firstChild);
       }
@@ -28,8 +29,12 @@ fetch("json/directory.json")
         let link = document.createElement("a");
 
         logo.src = businesses[i].logo;
+        logo.style.width = "150px";
+        logo.style.height = "150px";
+        logo.style.margin = "0 auto";
         name.textContent = businesses[i].name;
-        link.textContent = businesses[i].link;
+        link.textContent = "link";
+        link.href = businesses[i].link;
         contact.textContent = businesses[i].contact;
         // button.setAttribute("href", "join.html");
 
@@ -50,6 +55,8 @@ fetch("json/directory.json")
         "1fr";
 
       let directories = document.querySelector(".contentDirectory");
+      directories.style.width = "500px";
+      directories.style.margin = "0 auto";
       while (directories.firstChild) {
         directories.removeChild(directories.firstChild);
       }
@@ -62,8 +69,12 @@ fetch("json/directory.json")
         let link = document.createElement("a");
 
         logo.src = businesses[i].logo;
+        logo.style.width = "150px";
+        logo.style.height = "150px";
+        logo.style.margin = "0 auto";
         name.textContent = businesses[i].name;
-        link.textContent = businesses[i].link;
+        link.textContent = "link";
+        link.href = businesses[i].link;
         contact.textContent = businesses[i].contact;
         // button.setAttribute("href", "join.html");
 
