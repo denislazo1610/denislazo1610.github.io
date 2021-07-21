@@ -238,11 +238,15 @@ section:nth-child(odd) article {
 .grid-weather {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 30% 70%;
+  grid-template-rows: 10% 40% 10% 405;
 }
 
 .grid-weather h2 {
   text-align: center;
+}
+
+.weather1part {
+  grid-row: 1;
 }
 
 .current-weather {
@@ -254,9 +258,13 @@ section:nth-child(odd) article {
   padding-left: 20px;
 }
 
+.weather2part {
+  grid-row: 3;
+}
+
 .forecast {
-  grid-row: 2;
-  grid-column: 2;
+  grid-row: 4;
+  grid-column: 1;
   width: 80%;
   margin: 0 auto;
   border: solid;
