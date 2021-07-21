@@ -314,7 +314,7 @@ section:nth-child(odd) article {
 /* Join Page */
 
 .form {
-  /* position: absolute; */
+  position: absolute;
   background-color: white;
   opacity: 0.8;
   margin: 5% auto 0 auto;
@@ -324,10 +324,4 @@ section:nth-child(odd) article {
 
 .description {
   border: solid;
-}
-
-.JoinPhoto {
-  display: absolute;
-  /* width: 80%; */
-  /* visibility: hidden; */
 }
