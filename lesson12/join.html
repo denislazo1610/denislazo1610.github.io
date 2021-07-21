@@ -71,6 +71,31 @@
           <input type="text" name="BusinessName" required /></label
         ><br /><br />
 
+        <label
+          >Business Address:
+          <input type="text" name="businessAddress" required /></label
+        ><br /><br />
+
+        <label
+          >Business Description:
+          <input
+            type="text"
+            name="businessDescription"
+            placeholder="business.com"
+            required /></label
+        ><br /><br />
+
+        <fieldset style="border: 1px solid; width: 180px; height: 60px">
+          <legend><b>Business Description</b></legend>
+          <input name="friendID" value="XXXX" type="hidden" /><textarea
+            name="f_comments"
+            style="border: 0px solid; height: 50px; width: 180px"
+          >
+ Type description in Here..</textarea
+          >
+        </fieldset>
+        <br />
+
         <label>
           <select
             name="browsers"
@@ -86,15 +111,6 @@
         >
         <br /><br />
 
-        <fieldset style="border: 1px solid; width: 180px; height: 60px">
-          <legend><b>Post A Comment</b></legend>
-          <input name="friendID" value="XXXX" type="hidden" /><textarea
-            name="f_comments"
-            style="border: 0px solid; height: 50px; width: 180px"
-          >
-hello :)</textarea
-          >
-        </fieldset>
         <input type="submit" class="sbutton" /><br />
       </fieldset>
     </form>
