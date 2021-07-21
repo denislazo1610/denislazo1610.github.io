@@ -1,0 +1,21 @@
+{
+  "businesses": [
+    {
+      "name": "Marriott El Convento Cusco",
+      "description": "",
+      "logo": "",
+      "link": ""
+    },
+    {
+      "name": "El Reencuentro Restaurant",
+      "description": "",
+      "logo": "",
+      "link": ""
+    },
+    { "name": "Machupicchu Wayna", "description": "", "logo": "", "link": "" },
+    { "name": "", "description": "", "logo": "", "link": "" },
+    { "name": "", "description": "", "logo": "", "link": "" },
+    { "name": "", "description": "", "logo": "", "link": "" },
+    { "name": "", "description": "", "logo": "", "link": "" }
+  ]
+}
