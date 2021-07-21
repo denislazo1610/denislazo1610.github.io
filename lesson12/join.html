@@ -39,18 +39,25 @@
       <fieldset>
         <h1>Form</h1>
         <label
-          >Full Name:
-          <input type="text" name="name" required minlength="4" /></label
+          >First Name: <input type="text" name="Firstname" required /></label
         ><br /><br />
+
+        <label>Last Name: <input type="text" name="Lastname" required /></label
+        ><br /><br />
+
+        <label>Title: <input type="text" name="name" /></label><br /><br />
+
         <label
           >Email:
           <input
             type="email"
             name="email"
-            placeholder="user@email.org" /></label
+            placeholder="user@email.org"
+            required /></label
         ><br /><br />
+
         <label
-          >Phone:
+          >Cell Phone:
           <input
             type="tel"
             name="phone"
@@ -58,58 +65,11 @@
             required
           /> </label
         ><br /><br />
-        <label for="zip"
-          >Zip Code:
-          <input
-            type="text"
-            id="zip"
-            name="zip"
-            pattern="(\d{5}([\-]\d{4})?)"
-            required /></label
+
+        <label
+          >Business Name:
+          <input type="text" name="BusinessName" required /></label
         ><br /><br />
-        <label> Date: <input type="date" name="theDate" /></label><br /><br />
-        <label>Storm Type: <input name="stormType" list="stormlist" /></label>
-        <datalist id="stormlist">
-          <option value="Flash Flood"></option>
-          <option value="Hail"></option>
-          <option value="Hurricane"></option>
-          <option value="Thunderstorm"></option>
-          <option value="Tornado"></option>
-        </datalist>
-
-        <br /><br />
-
-        <label class="flexly" for="rating"
-          >Rating: &nbsp;&nbsp;&nbsp;
-          <input
-            type="range"
-            id="rating"
-            value="5"
-            min="1"
-            max="10"
-            step="1"
-            list="tickmarks"
-            oninput="adjustRating(this.value)"
-            onchange="adjustRating(this.value)"
-          />
-          <span id="ratingvalue">5</span>
-        </label>
-
-        <datalist id="tickmarks">
-          <option value="0"></option>
-          <option value="1"></option>
-          <option value="2"></option>
-          <option value="3"></option>
-          <option value="4"></option>
-          <option value="5"></option>
-          <option value="6"></option>
-          <option value="7"></option>
-          <option value="8"></option>
-          <option value="9"></option>
-          <option value="10"></option>
-        </datalist>
-
-        <br /><br />
 
         <label>
           <select
@@ -117,29 +77,14 @@
             id="selectbrowser"
             onchange="selectResponse()"
           >
-            <option value="" disabled selected>Select Region ...</option>
-            <option value="Preston">Preston</option>
-            <option value="Soda Springs">Soda Springs</option>
-            <option value="Fish Haven">Fish Haven</option>
+            <option value="" disabled selected>Select membership ...</option>
+            <option value="Non-Profit">Non-Profit</option>
+            <option value="Soda Springs">Bronze</option>
+            <option value="Fish Haven">Silver</option>
+            <option value="Fish Haven">Gold</option>
           </select></label
         >
         <br /><br />
-
-        <fieldset class="nestedfieldset">
-          <legend>In-danger level <em>(Choose one)</em></legend>
-          <div class="selection">
-            <label><input type="radio" name="time" value="9" /> Yes</label>
-          </div>
-          <div class="selection">
-            <input type="radio" id="time3" name="time" value="10" />
-            <label for="time3">Maybe</label>
-          </div>
-          <div class="selection">
-            <input type="radio" id="time4" name="time" value="11" />
-            <label for="time4">No</label>
-          </div>
-        </fieldset>
-        <br />
 
         <fieldset style="border: 1px solid; width: 180px; height: 60px">
           <legend><b>Post A Comment</b></legend>
