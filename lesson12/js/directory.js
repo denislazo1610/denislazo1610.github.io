@@ -1,6 +1,6 @@
 "use strict";
 
-fetch("json/info.json")
+fetch("json/directory.json")
   .then(function (response) {
     return response.json();
   })
@@ -9,6 +9,12 @@ fetch("json/info.json")
     const businesses = jsonObject["businesses"];
 
     for (let i = 0; i < businesses.length; i++) {
+      document
+        .querySelector(".gridView")
+        .addEventListener("click", function () {
+          console.log("NOOO");
+        });
+
       let card = document.createElement("section");
       let content = document.createElement("article");
       let name = document.createElement("h1");

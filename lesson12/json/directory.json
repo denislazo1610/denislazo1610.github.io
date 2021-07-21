@@ -2,20 +2,25 @@
   "businesses": [
     {
       "name": "Marriott El Convento Cusco",
-      "description": "",
+      "contact": "blablabla",
       "logo": "",
       "link": ""
     },
     {
       "name": "El Reencuentro Restaurant",
-      "description": "",
+      "contact": "",
       "logo": "",
       "link": ""
     },
-    { "name": "Machupicchu Wayna", "description": "", "logo": "", "link": "" },
-    { "name": "", "description": "", "logo": "", "link": "" },
-    { "name": "", "description": "", "logo": "", "link": "" },
-    { "name": "", "description": "", "logo": "", "link": "" },
-    { "name": "", "description": "", "logo": "", "link": "" }
+    {
+      "name": "Machupicchu Wayna",
+      "contact": "blablabla",
+      "logo": "",
+      "link": ""
+    },
+    { "name": "negocio4", "contact": "blablabla", "logo": "", "link": "" },
+    { "name": "negocio5", "contact": "blablabla", "logo": "", "link": "" },
+    { "name": "negocio6", "contact": "blablabla", "logo": "", "link": "" },
+    { "name": "negocio7", "contact": "blablabla", "logo": "", "link": "" }
   ]
 }
