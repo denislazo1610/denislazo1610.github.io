@@ -238,7 +238,7 @@ section:nth-child(odd) article {
 .grid-weather {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 10% 40% 10% 405;
+  grid-template-rows: 10% 40% 10% 40%;
 }
 
 .grid-weather h2 {
