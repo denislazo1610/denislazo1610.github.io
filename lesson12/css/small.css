@@ -310,3 +310,22 @@ section:nth-child(odd) article {
   width: 100%;
   margin: 0 auto;
 }
+
+/* Join Page */
+
+.form {
+  position: absolute;
+  background-color: white;
+  opacity: 0.8;
+  margin: 5% auto 0 auto;
+  width: 40%;
+  text-align: center;
+}
+
+.description {
+  border: solid;
+}
+
+.JoinPhoto {
+  width: 80%;
+}

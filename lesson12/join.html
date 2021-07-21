@@ -30,90 +30,97 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <h2 class="subTitle">Cusco</h2>
+
     <div class="herodiv">
-      <img class="mainPhoto" src="images/mainPhoto.jpg" />
-    </div>
+      <img class="JoinPhoto" src="images/joinPhoto.jpg" />
 
-    <form action="#" method="get" class="form">
-      <fieldset>
-        <h1>Form</h1>
-        <label
-          >First Name: <input type="text" name="Firstname" required /></label
-        ><br /><br />
+      <form action="#" method="get" class="form">
+        <fieldset>
+          <h1>Join Us Now!</h1>
+          <label
+            >First Name: <input type="text" name="Firstname" required /></label
+          ><br /><br />
 
-        <label>Last Name: <input type="text" name="Lastname" required /></label
-        ><br /><br />
+          <label
+            >Last Name: <input type="text" name="Lastname" required /></label
+          ><br /><br />
 
-        <label>Title: <input type="text" name="name" /></label><br /><br />
+          <label>Title: <input type="text" name="name" /></label><br /><br />
 
-        <label
-          >Email:
-          <input
-            type="email"
-            name="email"
-            placeholder="user@email.org"
-            required /></label
-        ><br /><br />
+          <label
+            >Email:
+            <input
+              type="email"
+              name="email"
+              placeholder="user@email.org"
+              required /></label
+          ><br /><br />
 
-        <label
-          >Cell Phone:
-          <input
-            type="tel"
-            name="phone"
-            placeholder="###-###-####"
-            required
-          /> </label
-        ><br /><br />
+          <label
+            >Cell Phone:
+            <input
+              type="tel"
+              name="phone"
+              placeholder="###-###-####"
+              required
+            /> </label
+          ><br /><br />
 
-        <label
-          >Business Name:
-          <input type="text" name="BusinessName" required /></label
-        ><br /><br />
+          <label
+            >Business Name:
+            <input type="text" name="BusinessName" required /></label
+          ><br /><br />
 
-        <label
-          >Business Address:
-          <input type="text" name="businessAddress" required /></label
-        ><br /><br />
+          <label
+            >Business Address:
+            <input type="text" name="businessAddress" required /></label
+          ><br /><br />
 
-        <label
-          >Business Description:
-          <input
-            type="text"
-            name="businessDescription"
-            placeholder="business.com"
-            required /></label
-        ><br /><br />
+          <label
+            >Business Website:
+            <input
+              type="text"
+              name="businessDescription"
+              placeholder="business.com"
+              required /></label
+          ><br /><br />
 
-        <fieldset style="border: 1px solid; width: 180px; height: 60px">
-          <legend><b>Business Description</b></legend>
-          <input name="friendID" value="XXXX" type="hidden" /><textarea
-            name="f_comments"
-            style="border: 0px solid; height: 50px; width: 180px"
+          <fieldset
+            style="
+              border: 1px solid;
+              width: 180px;
+              height: 60px;
+              margin: 0 auto;
+            "
           >
- Type description in Here..</textarea
+            <legend><b>Business Description</b></legend>
+            <input name="friendID" value="XXXX" type="hidden" />Type description
+            in Here..<textarea
+              name="f_comments"
+              style="border: 0px solid; height: 50px; width: 180px"
+            ></textarea>
+          </fieldset>
+          <br />
+
+          <label>
+            <select
+              name="browsers"
+              id="selectbrowser"
+              onchange="selectResponse()"
+            >
+              <option value="" disabled selected>Select membership ...</option>
+              <option value="Non-Profit">Non-Profit</option>
+              <option value="Soda Springs">Bronze</option>
+              <option value="Fish Haven">Silver</option>
+              <option value="Fish Haven">Gold</option>
+            </select></label
           >
+          <br /><br />
+
+          <input type="submit" class="sbutton" /><br />
         </fieldset>
-        <br />
-
-        <label>
-          <select
-            name="browsers"
-            id="selectbrowser"
-            onchange="selectResponse()"
-          >
-            <option value="" disabled selected>Select membership ...</option>
-            <option value="Non-Profit">Non-Profit</option>
-            <option value="Soda Springs">Bronze</option>
-            <option value="Fish Haven">Silver</option>
-            <option value="Fish Haven">Gold</option>
-          </select></label
-        >
-        <br /><br />
-
-        <input type="submit" class="sbutton" /><br />
-      </fieldset>
-    </form>
+      </form>
+    </div>
     <footer>
       <p>
         © <span id="year"></span> | Denis L. Choque | Idaho |
