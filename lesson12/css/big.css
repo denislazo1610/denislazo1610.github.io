@@ -237,4 +237,8 @@
     width: 80%;
     margin-left: 10%;
   }
+
+  .contactPhotoBig {
+    width: 1500px;
+  }
 }
