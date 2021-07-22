@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chamber of Commerce</title>
+    <meta
+      name="description"
+      content="This website will tell the weather of a specific city. It will contain information about the wind speed, humidity, etc. This will also show maps in it"
+    />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/big.css" />
+  </head>
+  <body>
+    <div class="advertencia"></div>
+    <header>
+      <img class="imagen" alt="chamber_logo" src="images/chamberLogo.jpg" />
+      <h1 class="title">Peru Chamber of Commerce</h1>
+    </header>
+    <nav>
+      <ul class="navigation">
+        <li onclick="toggleMenu()"><a class="boton">Menu</a></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="city.html">City</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a class="active" href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="herodiv">
+      <picture>
+        <source media="(max-width: 960px)" srcset="images/joinPhoto2.jpg" />
+        <img class="joinPhoto" alt="portada" src="images/joinPhoto.jpg" />
+      </picture>
+
+      <form action="#" method="get" class="form">
+        <fieldset>
+          <h1>Contact us!</h1>
+          <img
+            class="image_contact"
+            alt="map picture"
+            src="images/CuscoMapEditado.jpg"
+          />
+          <br /><br />
+          <label>Name: <input type="text" name="Firstname" required /></label
+          ><br /><br />
+
+          <label
+            >Phone:
+            <input
+              type="tel"
+              name="phone"
+              placeholder="###-###-####"
+              required
+            /> </label
+          ><br /><br />
+
+          <label
+            >Email:
+            <input
+              type="email"
+              name="email"
+              placeholder="user@email.org"
+              required /></label
+          ><br /><br />
+
+          <fieldset
+            style="
+              border: 1px solid;
+              width: 180px;
+              height: 60px;
+              margin: 0 auto;
+            "
+          >
+            <legend><b>Comment</b></legend>
+            <input name="friendID" value="XXXX" type="hidden" />Type description
+            in Here..<textarea
+              name="f_comments"
+              style="border: 0px solid; height: 50px; width: 180px"
+            ></textarea>
+          </fieldset>
+          <br />
+
+          <input type="submit" class="sbutton" /><br />
+        </fieldset>
+      </form>
+    </div>
+    <footer>
+      <p>
+        © <span id="year"></span> | Denis L. Choque | Idaho |
+        <a href="https://www.byui.edu/online">BYUI: Online Learning</a>
+      </p>
+      <h3>Date: <span id="fecha"></span></h3>
+    </footer>
+    <script src="js/navigation.js"></script>
+  </body>
+</html>
