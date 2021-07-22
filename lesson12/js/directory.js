@@ -22,7 +22,13 @@ fetch("json/directory.json")
       }
 
       for (let i = 0; i < businesses.length; i++) {
-        let card = document.createElement("section");
+        let card = document.createElement("division");
+        card.style.display = "grid";
+        card.style.border = "solid";
+        card.style.gridTemplateRows = "10% 30% 30% 30%";
+        card.style.gridTemplateColumns = "1fr";
+        card.style.backgroundColor = "bisque";
+
         let name = document.createElement("h1");
         let contact = document.createElement("p");
         let logo = document.createElement("img");
@@ -36,11 +42,14 @@ fetch("json/directory.json")
         link.textContent = "link";
         link.href = businesses[i].link;
         contact.textContent = businesses[i].contact;
-        // button.setAttribute("href", "join.html");
 
         card.appendChild(name);
+        name.style.gridRow = "2";
+        name.style.textAlign = "center";
         card.appendChild(contact);
+        contact.style.textAlign = "center";
         card.appendChild(logo);
+        logo.style.gridRow = "3";
         card.appendChild(link);
 
         document.querySelector(".contentDirectory").appendChild(card);
@@ -62,7 +71,14 @@ fetch("json/directory.json")
       }
 
       for (let i = 0; i < businesses.length; i++) {
-        let card = document.createElement("section");
+        let card = document.createElement("division");
+        card.style.display = "grid";
+        card.style.gridgap = "5px";
+        card.style.border = "solid";
+        card.style.gridTemplateRows = "10% 30% 30% 30%";
+        card.style.gridTemplateColumns = "1fr";
+        card.style.backgroundColor = "bisque";
+
         let name = document.createElement("h1");
         let contact = document.createElement("p");
         let logo = document.createElement("img");
@@ -79,32 +95,15 @@ fetch("json/directory.json")
         // button.setAttribute("href", "join.html");
 
         card.appendChild(name);
+        name.style.gridRow = "2";
+        name.style.textAlign = "center";
         card.appendChild(contact);
+        contact.style.textAlign = "center";
         card.appendChild(logo);
+        logo.style.gridRow = "3";
         card.appendChild(link);
 
         document.querySelector(".contentDirectory").appendChild(card);
       }
     });
-
-    // for (let i = 0; i < businesses.length; i++) {
-    //   let card = document.createElement("section");
-    //   let name = document.createElement("h1");
-    //   let contact = document.createElement("p");
-    //   let logo = document.createElement("img");
-    //   let link = document.createElement("a");
-
-    //   logo.src = businesses[i].logo;
-    //   name.textContent = businesses[i].name;
-    //   link.textContent = businesses[i].link;
-    //   contact.textContent = businesses[i].contact;
-    //   // button.setAttribute("href", "join.html");
-
-    //   card.appendChild(name);
-    //   card.appendChild(contact);
-    //   card.appendChild(logo);
-    //   card.appendChild(link);
-
-    //   document.querySelector(".contentDirectory").appendChild(card);
-    // }
   });
