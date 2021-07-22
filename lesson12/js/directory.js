@@ -73,7 +73,6 @@ fetch("json/directory.json")
       for (let i = 0; i < businesses.length; i++) {
         let card = document.createElement("division");
         card.style.display = "grid";
-        card.style.gridgap = "5px";
         card.style.border = "solid";
         card.style.gridTemplateRows = "10% 30% 30% 30%";
         card.style.gridTemplateColumns = "1fr";
