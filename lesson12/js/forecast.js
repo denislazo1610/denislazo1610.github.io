@@ -9,8 +9,6 @@ const apiURLForecast = `https://api.openweathermap.org/data/2.5/forecast?id=${id
 fetch(apiURLForecast)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
-
     for (var i = 0; i < 3; i++) {
       document.querySelector(`.Cusco${i}Day`).textContent =
         jsObject.list[i].main.temp;

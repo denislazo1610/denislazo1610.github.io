@@ -9,8 +9,6 @@ const apiURL = `https://api.openweathermap.org/data/2.5/weather?id=${idCity}&app
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
-
     document.querySelector(".temperature").textContent = jsObject.main.temp;
     document.querySelector(".condition").textContent =
       jsObject.weather[0].description;

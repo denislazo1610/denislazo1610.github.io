@@ -5,7 +5,6 @@ fetch("json/info.json")
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject); // temporary checking for valid response and data parsing
     const businesses = jsonObject["businesses"];
 
     for (let i = 0; i < businesses.length; i++) {
